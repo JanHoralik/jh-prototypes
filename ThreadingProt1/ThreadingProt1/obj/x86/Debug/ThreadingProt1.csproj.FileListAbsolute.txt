@@ -1,0 +1,12 @@
+C:\Users\jan\AppData\Local\Temporary Projects\ThreadingProt1\bin\Debug\ThreadingProt1.exe
+C:\Users\jan\AppData\Local\Temporary Projects\ThreadingProt1\bin\Debug\ThreadingProt1.pdb
+C:\Users\jan\AppData\Local\Temporary Projects\ThreadingProt1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jan\AppData\Local\Temporary Projects\ThreadingProt1\obj\x86\Debug\ThreadingProt1.exe
+C:\Users\jan\AppData\Local\Temporary Projects\ThreadingProt1\obj\x86\Debug\ThreadingProt1.pdb
+C:\Users\jan\Documents\Visual Studio 2010\Projects\ThreadingProt1\ThreadingProt1\obj\x86\Debug\ThreadingProt1.exe
+C:\Users\jan\Documents\Visual Studio 2010\Projects\ThreadingProt1\ThreadingProt1\obj\x86\Debug\ThreadingProt1.pdb
+C:\msysgit\work\prototypes\ThreadingProt1\ThreadingProt1\obj\x86\Debug\ThreadingProt1.exe
+C:\msysgit\work\prototypes\ThreadingProt1\ThreadingProt1\obj\x86\Debug\ThreadingProt1.pdb
+C:\msysgit\work\prototypes\ThreadingProt1\ThreadingProt1\bin\Debug\ThreadingProt1.exe
+C:\msysgit\work\prototypes\ThreadingProt1\ThreadingProt1\bin\Debug\ThreadingProt1.pdb
+C:\msysgit\work\prototypes\ThreadingProt1\ThreadingProt1\obj\x86\Debug\ResolveAssemblyReference.cache
