@@ -1,0 +1,424 @@
+TestName,StartTime,TimeStamp,ActionDesc,ActionDuration,
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,005 Set field 'Target Unit' to value 'Package',281,Client
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,006 Apply changes,1625,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,007 Set field 'Target Unit' to value 'Piece',469,Client
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,008 Set field 'Y Axis' to value 'Percent',484,Client
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,009 Apply changes,1953,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,010 Select graph type 'Scatter',2500,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,011 Filter by time,3266,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:34,012 Clear filters,734,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:34,013 Logout ,1672,Login
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:34,001 Open login page,219,Other
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:34,002 Login as 'regadminNL2',1797,Login
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:34,003 Navigate in main menu to 'Track and Analyze',7469,FolderNavigation
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:34,004 Navigate in folders to 'Price Explorer',2875,FolderNavigation
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:34,005 Set field 'Target Unit' to value 'Package',313,Client
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,006 Apply changes,1781,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,007 Set field 'Target Unit' to value 'Piece',188,Client
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,008 Set field 'Y Axis' to value 'Percent',219,Client
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,009 Apply changes,1625,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,010 Select graph type 'Scatter',1906,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,011 Filter by time,3016,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,012 Clear filters,1047,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:36,013 Logout ,1266,Login
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,001 Open login page,141,Other
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,002 Login as 'regadminNL2',1875,Login
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,003 Navigate in main menu to 'Track and Analyze',7609,FolderNavigation
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,004 Navigate in folders to 'Price Explorer',3766,FolderNavigation
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,005 Set field 'Target Unit' to value 'Package',328,Client
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,006 Apply changes,2000,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,007 Set field 'Target Unit' to value 'Piece',453,Client
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,008 Set field 'Y Axis' to value 'Percent',234,Client
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,009 Apply changes,1969,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,010 Select graph type 'Scatter',2141,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,011 Filter by time,2938,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,012 Clear filters,719,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:38,013 Logout ,1391,Login
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,001 Open login page,219,Other
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,002 Login as 'regadminNL2',1797,Login
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,003 Navigate in main menu to 'Track and Analyze',7875,FolderNavigation
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,004 Navigate in folders to 'Price Explorer',3922,FolderNavigation
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,005 Set field 'Target Unit' to value 'Package',359,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,006 Apply changes,1875,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,007 Set field 'Target Unit' to value 'Piece',344,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,008 Set field 'Y Axis' to value 'Percent',344,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,009 Apply changes,2156,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,010 Select graph type 'Scatter',2328,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,011 Filter by time,2953,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,012 Clear filters,828,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:40,013 Logout ,2375,Login
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,001 Open login page,281,Other
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,002 Login as 'regadminNL2',1703,Login
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,003 Navigate in main menu to 'Track and Analyze',7563,FolderNavigation
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,004 Navigate in folders to 'Price Explorer',3047,FolderNavigation
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,005 Set field 'Target Unit' to value 'Package',250,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,006 Apply changes,1750,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,007 Set field 'Target Unit' to value 'Piece',297,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,008 Set field 'Y Axis' to value 'Percent',422,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,009 Apply changes,1797,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,010 Select graph type 'Scatter',2125,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,011 Filter by time,3625,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,012 Clear filters,1109,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,013 Logout ,1281,Login
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:41,001 Open login page,234,Other
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:41,002 Login as 'regadminNL2',1484,Login
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:42,003 Navigate in main menu to 'Track and Analyze',8563,FolderNavigation
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:42,004 Navigate in folders to 'Price Explorer',4406,FolderNavigation
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:42,005 Set field 'Target Unit' to value 'Package',219,Client
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:42,006 Apply changes,1609,PriceExplorer
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:42,007 Set field 'Target Unit' to value 'Piece',281,Client
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:42,008 Set field 'Y Axis' to value 'Percent',422,Client
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:42,009 Apply changes,1906,PriceExplorer
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:43,010 Select graph type 'Scatter',2234,PriceExplorer
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:43,011 Filter by time,3344,PriceExplorer
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:43,012 Clear filters,1156,PriceExplorer
+A - Price Explorer,12/15/2010 17:41,12/15/2010 17:43,013 Logout ,2563,Login
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:43,001 Open login page,188,Other
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:43,002 Login as 'regadminNL2',1547,Login
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:43,003 Navigate in main menu to 'Track and Analyze',7891,FolderNavigation
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:44,004 Navigate in folders to 'Price Explorer',3297,FolderNavigation
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:44,005 Set field 'Target Unit' to value 'Package',156,Client
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:44,006 Apply changes,1516,PriceExplorer
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:44,007 Set field 'Target Unit' to value 'Piece',297,Client
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:44,008 Set field 'Y Axis' to value 'Percent',375,Client
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:44,009 Apply changes,1891,PriceExplorer
+A - Price Explorer,12/15/2010 17:43,12/15/2010 17:44,010 Select graph type 'Scatter',2344,PriceExplorer
+B - Revenue Causality dashboard,12/15/2010 17:27,12/15/2010 17:33,012 Dashboard clear drills,7406,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:27,12/15/2010 17:33,013 Logout ,2031,Login
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:33,001 Open login page,234,Other
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:33,002 Login as 'managerSW' and wait for dashboard,7406,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:34,003 Load dashboard 'Revenue Causality',984,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:34,004 Dashboard clear drills,7516,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:35,005 Set time period in dashboard,9219,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:36,006 Set field 'Target Unit' to value 'Meter',7422,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:36,007 Set field 'Target Unit' to value 'Piece',8172,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:37,008 Dashboard drill down by 'Territory' 'SE',1547,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:37,009 Dashboard drill down by 'Territory' 'BT LV SE',1375,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:37,010 Dashboard drill down by 'Territory' 'Sales Office Sweden',2172,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:38,011 Dashboard drill down by 'Territory' 'Huvudkontor',1453,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:38,012 Dashboard clear drills,7203,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:33,12/15/2010 17:39,013 Logout ,1766,Login
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:39,001 Open login page,266,Other
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:39,002 Login as 'managerSW' and wait for dashboard,8078,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:39,003 Load dashboard 'Revenue Causality',8172,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:40,004 Dashboard clear drills,7313,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:41,005 Set time period in dashboard,1234,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:41,006 Set field 'Target Unit' to value 'Meter',8656,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:42,007 Set field 'Target Unit' to value 'Piece',10000,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:42,008 Dashboard drill down by 'Territory' 'SE',1563,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:43,009 Dashboard drill down by 'Territory' 'BT LV SE',1156,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:43,010 Dashboard drill down by 'Territory' 'Sales Office Sweden',2063,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:44,011 Dashboard drill down by 'Territory' 'Huvudkontor',1516,Dashboard
+B - Revenue Causality dashboard,12/15/2010 17:39,12/15/2010 17:44,012 Dashboard clear drills,7125,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:29,12/15/2010 17:33,009 Dashboard drill down by 'Sales' 'SalesDirectorFI',2031,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:29,12/15/2010 17:33,010 Dashboard drill down by 'Sales' 'N/A',1688,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:39,001 Open login page,234,Other
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:39,002 Login as 'marketingFI' and wait for dashboard,7703,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:39,003 Load dashboard 'Revenue Causality',7828,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:40,004 Dashboard clear drills,7141,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:41,005 Set time period in dashboard,1188,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:41,006 Set field 'Target Currency' to value 'DKK',7531,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:42,007 Set field 'Target Unit' to value 'Meter',8391,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:42,008 Set field 'Target Unit' to value 'Piece',7969,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:43,009 Dashboard drill down by 'Sales' 'SalesDirectorFI',1828,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:43,010 Dashboard drill down by 'Sales' 'N/A',2078,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:44,011 Dashboard clear drills,6031,Dashboard
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:44,012 Logout ,2688,Login
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:44,12/15/2010 17:44,001 Open login page,203,Other
+C - Revenue Causality dashboard without SalesDistrict,12/15/2010 17:44,12/15/2010 17:44,002 Login as 'marketingFI' and wait for dashboard,7313,Dashboard
+A - Price Explorer,12/15/2010 17:31,12/15/2010 17:33,010 Select graph type 'Scatter',2766,PriceExplorer
+A - Price Explorer,12/15/2010 17:31,12/15/2010 17:33,011 Filter by time,3984,PriceExplorer
+A - Price Explorer,12/15/2010 17:31,12/15/2010 17:33,012 Clear filters,1797,PriceExplorer
+A - Price Explorer,12/15/2010 17:31,12/15/2010 17:33,013 Logout ,1484,Login
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:33,001 Open login page,250,Other
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:33,002 Login as 'regadminNL2',1750,Login
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:34,003 Navigate in main menu to 'Track and Analyze',8313,FolderNavigation
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:34,004 Navigate in folders to 'Price Explorer',5188,FolderNavigation
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:34,005 Set field 'Target Unit' to value 'Package',172,Client
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:34,006 Apply changes,1609,PriceExplorer
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:34,007 Set field 'Target Unit' to value 'Piece',203,Client
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:34,008 Set field 'Y Axis' to value 'Percent',203,Client
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:34,009 Apply changes,1578,PriceExplorer
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:34,010 Select graph type 'Scatter',2156,PriceExplorer
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:35,011 Filter by time,3141,PriceExplorer
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:35,012 Clear filters,828,PriceExplorer
+A - Price Explorer,12/15/2010 17:33,12/15/2010 17:35,013 Logout ,1406,Login
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:35,001 Open login page,203,Other
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:35,002 Login as 'regadminNL2',1438,Login
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:35,003 Navigate in main menu to 'Track and Analyze',7578,FolderNavigation
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:35,004 Navigate in folders to 'Price Explorer',4016,FolderNavigation
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:36,005 Set field 'Target Unit' to value 'Package',266,Client
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:36,006 Apply changes,1797,PriceExplorer
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:36,007 Set field 'Target Unit' to value 'Piece',219,Client
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:36,008 Set field 'Y Axis' to value 'Percent',281,Client
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:36,009 Apply changes,1875,PriceExplorer
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:36,010 Select graph type 'Scatter',2500,PriceExplorer
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:36,011 Filter by time,3875,PriceExplorer
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:37,012 Clear filters,1391,PriceExplorer
+A - Price Explorer,12/15/2010 17:35,12/15/2010 17:37,013 Logout ,1234,Login
+A - Price Explorer,12/15/2010 17:37,12/15/2010 17:37,001 Open login page,203,Other
+A - Price Explorer,12/15/2010 17:37,12/15/2010 17:37,002 Login as 'regadminNL2',1469,Login
+A - Price Explorer,12/15/2010 17:37,12/15/2010 17:37,003 Navigate in main menu to 'Track and Analyze',7531,FolderNavigation
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,001 Open login page,328,Other
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,002 Login as 'regadminNL2',1594,Login
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,003 Navigate in main menu to 'Track and Analyze',8422,FolderNavigation
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,004 Navigate in folders to 'Price Explorer',3031,FolderNavigation
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,005 Set field 'Target Unit' to value 'Package',375,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,006 Apply changes,1656,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,007 Set field 'Target Unit' to value 'Piece',188,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,008 Set field 'Y Axis' to value 'Percent',313,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,009 Apply changes,1859,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,010 Select graph type 'Scatter',2047,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,011 Filter by time,2891,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:40,012 Clear filters,906,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:40,013 Logout ,1547,Login
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,001 Open login page,2109,Other
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,002 Login as 'regadminNL2',1656,Login
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,003 Navigate in main menu to 'Track and Analyze',7219,FolderNavigation
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,004 Navigate in folders to 'Price Explorer',3297,FolderNavigation
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,005 Set field 'Target Unit' to value 'Package',266,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,006 Apply changes,1922,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,007 Set field 'Target Unit' to value 'Piece',141,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,008 Set field 'Y Axis' to value 'Percent',172,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,009 Apply changes,1484,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,010 Select graph type 'Scatter',2516,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,011 Filter by time,3219,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:42,012 Clear filters,1266,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:42,013 Logout ,1500,Login
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,001 Open login page,188,Other
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,002 Login as 'regadminNL2',1688,Login
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,003 Navigate in main menu to 'Track and Analyze',7672,FolderNavigation
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,004 Navigate in folders to 'Price Explorer',4656,FolderNavigation
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,005 Set field 'Target Unit' to value 'Package',1922,Client
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,006 Apply changes,1578,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,007 Set field 'Target Unit' to value 'Piece',266,Client
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,008 Set field 'Y Axis' to value 'Percent',188,Client
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,009 Apply changes,1625,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,010 Select graph type 'Scatter',2250,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,011 Filter by time,5281,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:44,012 Clear filters,781,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:44,013 Logout ,1203,Login
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,001 Open login page,188,Other
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,002 Login as 'regadminNL2',1750,Login
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,003 Navigate in main menu to 'Track and Analyze',8375,FolderNavigation
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,004 Navigate in folders to 'Price Explorer',3641,FolderNavigation
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,005 Set field 'Target Unit' to value 'Package',313,Client
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,006 Apply changes,2250,PriceExplorer
+D - Summary dashboard,12/15/2010 17:27,12/15/2010 17:33,010 Dashboard clear drills,1250,Dashboard
+D - Summary dashboard,12/15/2010 17:27,12/15/2010 17:33,011 Logout ,1891,Login
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:33,001 Open login page,203,Other
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:33,002 Login as 'pricingmanDK' and wait for dashboard,8047,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:34,003 Dashboard clear drills,7234,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:35,004 Set time period in dashboard,10578,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:35,005 Set Top/Bottom Performance Aggregation to: Regional Price Group,7328,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:36,006 Set Top/Bottom Performance Aggregation to: Sold to Customer,7984,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:36,007 Click link 'Show Top Performers',8672,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:37,008 Dashboard drill down by 'Customer' 'Decision Influencer',5016,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:37,009 Dashboard drill down by 'Customer' 'Cowi A/S 0008121217',5391,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:38,010 Dashboard clear drills,6641,Dashboard
+D - Summary dashboard,12/15/2010 17:33,12/15/2010 17:38,011 Logout ,2188,Login
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:38,001 Open login page,219,Other
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:39,002 Login as 'pricingmanDK' and wait for dashboard,8219,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:39,003 Dashboard clear drills,8188,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:40,004 Set time period in dashboard,1234,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:41,005 Set Top/Bottom Performance Aggregation to: Regional Price Group,9016,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:41,006 Set Top/Bottom Performance Aggregation to: Sold to Customer,9797,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:42,007 Click link 'Show Top Performers',8766,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:42,008 Dashboard drill down by 'Customer' 'Decision Influencer',2719,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:43,009 Dashboard drill down by 'Customer' 'Cowi A/S 0008121217',9844,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:44,010 Dashboard clear drills,7438,Dashboard
+D - Summary dashboard,12/15/2010 17:38,12/15/2010 17:44,011 Logout ,2438,Login
+D - Summary dashboard,12/15/2010 17:44,12/15/2010 17:44,001 Open login page,219,Other
+D - Summary dashboard,12/15/2010 17:44,12/15/2010 17:44,002 Login as 'pricingmanDK' and wait for dashboard,8078,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:29,12/15/2010 17:33,007 Set field 'Target Unit' to value 'Piece',15703,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:29,12/15/2010 17:33,008 Dashboard drill down by 'External/Internal' 'E',4422,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:29,12/15/2010 17:34,009 Dashboard clear drills,641,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:29,12/15/2010 17:34,010 Logout ,2734,Login
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:34,001 Open login page,219,Other
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:34,002 Login as 'Headquoters' and wait for dashboard,7828,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:35,003 Dashboard clear drills,7063,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:36,004 Set time period in dashboard,15688,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:36,005 Set field 'Target Currency' to value 'GBP',1797,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:37,006 Set field 'Target Unit' to value 'Meter',2000,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:37,007 Set field 'Target Unit' to value 'Piece',6438,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:38,008 Dashboard drill down by 'External/Internal' 'E',3563,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:39,009 Dashboard clear drills,1625,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:34,12/15/2010 17:39,010 Logout ,2094,Login
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:39,001 Open login page,219,Other
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:39,002 Login as 'Headquoters' and wait for dashboard,7859,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:40,003 Dashboard clear drills,8469,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:41,004 Set time period in dashboard,16016,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:41,005 Set field 'Target Currency' to value 'GBP',2328,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:42,006 Set field 'Target Unit' to value 'Meter',1938,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:42,007 Set field 'Target Unit' to value 'Piece',5641,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:43,008 Dashboard drill down by 'External/Internal' 'E',3563,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:43,009 Dashboard clear drills,844,Dashboard
+E - Summary dashboard without SalesDistrict,12/15/2010 17:39,12/15/2010 17:44,010 Logout ,2359,Login
+E - Summary dashboard without SalesDistrict,12/15/2010 17:44,12/15/2010 17:44,001 Open login page,188,Other
+E - Summary dashboard without SalesDistrict,12/15/2010 17:44,12/15/2010 17:44,002 Login as 'Headquoters' and wait for dashboard,7516,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:33,001 Open login page,266,Other
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:33,002 Login as 'salesmanPL' and wait for dashboard,6875,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:33,003 Dashboard clear drills,5516,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:34,004 Set time period in dashboard,7547,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:34,005 Set Top/Bottom Performance Aggregation to: Regional Price Group,6375,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:35,006 Set Top/Bottom Performance Aggregation to: Sold to Customer,6469,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:36,007 Click link 'Show Top Performers',6328,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:36,008 Dashboard drill down by 'Management ' 'I BT',2906,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:36,009 Dashboard drill down by 'Management ' 'LV',2844,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:37,010 Dashboard drill down by 'Management ' 'LV GC',2922,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:37,011 Dashboard drill down by 'Management ' 'P310',3172,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:38,012 Dashboard clear drills,5688,Dashboard
+F - Sales dashboard1,12/15/2010 17:33,12/15/2010 17:38,013 Logout ,2094,Login
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:38,001 Open login page,188,Other
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:39,002 Login as 'salesmanPL' and wait for dashboard,5500,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:39,003 Dashboard clear drills,5781,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:40,004 Set time period in dashboard,9563,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:40,005 Set Top/Bottom Performance Aggregation to: Regional Price Group,6188,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:41,006 Set Top/Bottom Performance Aggregation to: Sold to Customer,6891,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:41,007 Click link 'Show Top Performers',6500,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:42,008 Dashboard drill down by 'Management ' 'I BT',2656,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:42,009 Dashboard drill down by 'Management ' 'LV',2438,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:43,010 Dashboard drill down by 'Management ' 'LV GC',2734,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:43,011 Dashboard drill down by 'Management ' 'P310',2406,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:44,012 Dashboard clear drills,5609,Dashboard
+F - Sales dashboard1,12/15/2010 17:38,12/15/2010 17:44,013 Logout ,1563,Login
+F - Sales dashboard1,12/15/2010 17:44,12/15/2010 17:44,001 Open login page,203,Other
+F - Sales dashboard1,12/15/2010 17:44,12/15/2010 17:44,002 Login as 'salesmanPL' and wait for dashboard,5500,Dashboard
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,003 Navigate in main menu to 'Track and Analyze',8219,FolderNavigation
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,004 Navigate in folders to 'Price Explorer',4313,FolderNavigation
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,005 Set field 'Target Unit' to value 'Package',234,Client
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,006 Apply changes,2141,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,007 Set field 'Target Unit' to value 'Piece',203,Client
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,008 Set field 'Y Axis' to value 'Percent',234,Client
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:33,009 Apply changes,1641,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:34,010 Select graph type 'Scatter',2234,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:34,011 Filter by time,3547,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:34,012 Clear filters,1156,PriceExplorer
+A - Price Explorer,12/15/2010 17:32,12/15/2010 17:34,013 Logout ,1219,Login
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:34,001 Open login page,219,Other
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:34,002 Login as 'regadminNL2',1594,Login
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:34,003 Navigate in main menu to 'Track and Analyze',7469,FolderNavigation
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,004 Navigate in folders to 'Price Explorer',4156,FolderNavigation
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,005 Set field 'Target Unit' to value 'Package',281,Client
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,006 Apply changes,2391,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,007 Set field 'Target Unit' to value 'Piece',203,Client
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,008 Set field 'Y Axis' to value 'Percent',219,Client
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,009 Apply changes,2531,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:35,010 Select graph type 'Scatter',2000,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:36,011 Filter by time,2797,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:36,012 Clear filters,609,PriceExplorer
+A - Price Explorer,12/15/2010 17:34,12/15/2010 17:36,013 Logout ,1328,Login
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,001 Open login page,203,Other
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,002 Login as 'regadminNL2',1609,Login
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,003 Navigate in main menu to 'Track and Analyze',8438,FolderNavigation
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:36,004 Navigate in folders to 'Price Explorer',4328,FolderNavigation
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,005 Set field 'Target Unit' to value 'Package',188,Client
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,006 Apply changes,1813,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,007 Set field 'Target Unit' to value 'Piece',172,Client
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,008 Set field 'Y Axis' to value 'Percent',203,Client
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,009 Apply changes,1625,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,010 Select graph type 'Scatter',2766,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:37,011 Filter by time,3266,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:38,012 Clear filters,1000,PriceExplorer
+A - Price Explorer,12/15/2010 17:36,12/15/2010 17:38,013 Logout ,1625,Login
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,001 Open login page,203,Other
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,002 Login as 'regadminNL2',1391,Login
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,003 Navigate in main menu to 'Track and Analyze',7469,FolderNavigation
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:38,004 Navigate in folders to 'Price Explorer',4172,FolderNavigation
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,005 Set field 'Target Unit' to value 'Package',219,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,006 Apply changes,1953,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,007 Set field 'Target Unit' to value 'Piece',203,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,008 Set field 'Y Axis' to value 'Percent',281,Client
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,009 Apply changes,1578,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,010 Select graph type 'Scatter',2297,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:39,011 Filter by time,3781,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:40,012 Clear filters,1813,PriceExplorer
+A - Price Explorer,12/15/2010 17:38,12/15/2010 17:40,013 Logout ,1516,Login
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,001 Open login page,188,Other
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,002 Login as 'regadminNL2',1547,Login
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,003 Navigate in main menu to 'Track and Analyze',7688,FolderNavigation
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,004 Navigate in folders to 'Price Explorer',3125,FolderNavigation
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,005 Set field 'Target Unit' to value 'Package',297,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:40,006 Apply changes,1750,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,007 Set field 'Target Unit' to value 'Piece',188,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,008 Set field 'Y Axis' to value 'Percent',219,Client
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,009 Apply changes,1813,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,010 Select graph type 'Scatter',2156,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,011 Filter by time,3859,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:41,012 Clear filters,688,PriceExplorer
+A - Price Explorer,12/15/2010 17:40,12/15/2010 17:42,013 Logout ,3875,Login
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,001 Open login page,219,Other
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,002 Login as 'regadminNL2',1641,Login
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,003 Navigate in main menu to 'Track and Analyze',8297,FolderNavigation
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,004 Navigate in folders to 'Price Explorer',2781,FolderNavigation
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,005 Set field 'Target Unit' to value 'Package',297,Client
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:42,006 Apply changes,1734,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,007 Set field 'Target Unit' to value 'Piece',219,Client
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,008 Set field 'Y Axis' to value 'Percent',250,Client
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,009 Apply changes,1781,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,010 Select graph type 'Scatter',2031,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,011 Filter by time,3031,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:43,012 Clear filters,1688,PriceExplorer
+A - Price Explorer,12/15/2010 17:42,12/15/2010 17:44,013 Logout ,1516,Login
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,001 Open login page,188,Other
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,002 Login as 'regadminNL2',1703,Login
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,003 Navigate in main menu to 'Track and Analyze',6703,FolderNavigation
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,004 Navigate in folders to 'Price Explorer',2641,FolderNavigation
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,005 Set field 'Target Unit' to value 'Package',422,Client
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,006 Apply changes,1828,PriceExplorer
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,007 Set field 'Target Unit' to value 'Piece',234,Client
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,008 Set field 'Y Axis' to value 'Percent',297,Client
+A - Price Explorer,12/15/2010 17:44,12/15/2010 17:44,009 Apply changes,1953,PriceExplorer
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:33,005 Set field 'Target Currency' to value 'EUR',6281,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:33,006 Set field 'Target Unit' to value 'Meter',6344,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:34,007 Set field 'Target Unit' to value 'Piece',7813,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:34,008 Set time period in dashboard,8438,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:35,009 Dashboard drill down by 'HQ Product ' '002',2641,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:35,010 Dashboard drill down by 'HQ Product ' '5502',10547,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:36,011 Dashboard drill down by 'HQ Product ' '5SX2110-6',2172,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:36,012 Dashboard clear drills,5844,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:31,12/15/2010 17:37,013 Logout ,1344,Login
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:37,001 Open login page,188,Other
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:37,002 Login as 'marketingNO' and wait for dashboard,7641,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:37,003 Load dashboard 'Sales',6688,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:38,004 Dashboard clear drills,4969,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:38,005 Set field 'Target Currency' to value 'EUR',6125,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:39,006 Set field 'Target Unit' to value 'Meter',6688,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:39,007 Set field 'Target Unit' to value 'Piece',6531,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:40,008 Set time period in dashboard,1125,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:41,009 Dashboard drill down by 'HQ Product ' '002',2813,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:41,010 Dashboard drill down by 'HQ Product ' '5502',8625,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:41,011 Dashboard drill down by 'HQ Product ' '5SX2110-6',3328,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:42,012 Dashboard clear drills,5594,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:37,12/15/2010 17:42,013 Logout ,1484,Login
+G - Sales dashboard without SalesDistrict,12/15/2010 17:42,12/15/2010 17:42,001 Open login page,219,Other
+G - Sales dashboard without SalesDistrict,12/15/2010 17:42,12/15/2010 17:43,002 Login as 'marketingNO' and wait for dashboard,7672,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:42,12/15/2010 17:43,003 Load dashboard 'Sales',6672,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:42,12/15/2010 17:44,004 Dashboard clear drills,5625,Dashboard
+G - Sales dashboard without SalesDistrict,12/15/2010 17:42,12/15/2010 17:44,005 Set field 'Target Currency' to value 'EUR',5938,Dashboard
+H - Sales dashboard2,12/15/2010 17:32,12/15/2010 17:33,004 Set time period in dashboard,8328,Dashboard
+H - Sales dashboard2,12/15/2010 17:32,12/15/2010 17:34,005 Set Top/Bottom Performance Aggregation to: Regional Price Group,7234,Dashboard
+H - Sales dashboard2,12/15/2010 17:32,12/15/2010 17:34,006 Set Top/Bottom Performance Aggregation to: Sold to Customer,6406,Dashboard
+H - Sales dashboard2,12/15/2010 17:32,12/15/2010 17:35,007 Click link 'Show Top Performers',6406,Dashboard
+H - Sales dashboard2,12/15/2010 17:32,12/15/2010 17:35,008 Dashboard drill down by 'Regional Price' '098',2609,Dashboard
+H - Sales dashboard2,12/15/2010 17:32,12/15/2010 17:36,009 Dashboard clear drills,5141,Dashboard
+H - Sales dashboard2,12/15/2010 17:32,12/15/2010 17:36,010 Logout ,1422,Login
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:36,001 Open login page,250,Other
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:36,002 Login as 'salesrepNL' and wait for dashboard,5641,Dashboard
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:36,003 Dashboard clear drills,5031,Dashboard
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:37,004 Set time period in dashboard,8516,Dashboard
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:38,005 Set Top/Bottom Performance Aggregation to: Regional Price Group,5750,Dashboard
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:38,006 Set Top/Bottom Performance Aggregation to: Sold to Customer,6375,Dashboard
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:39,007 Click link 'Show Top Performers',7250,Dashboard
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:39,008 Dashboard drill down by 'Regional Price' '098',3516,Dashboard
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:40,009 Dashboard clear drills,5391,Dashboard
+H - Sales dashboard2,12/15/2010 17:36,12/15/2010 17:40,010 Logout ,1734,Login
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:40,001 Open login page,188,Other
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:40,002 Login as 'salesrepNL' and wait for dashboard,5906,Dashboard
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:41,003 Dashboard clear drills,6141,Dashboard
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:42,004 Set time period in dashboard,8078,Dashboard
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:42,005 Set Top/Bottom Performance Aggregation to: Regional Price Group,6469,Dashboard
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:43,006 Set Top/Bottom Performance Aggregation to: Sold to Customer,6328,Dashboard
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:43,007 Click link 'Show Top Performers',6453,Dashboard
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:44,008 Dashboard drill down by 'Regional Price' '098',3594,Dashboard
+H - Sales dashboard2,12/15/2010 17:40,12/15/2010 17:44,009 Dashboard clear drills,5313,Dashboard
