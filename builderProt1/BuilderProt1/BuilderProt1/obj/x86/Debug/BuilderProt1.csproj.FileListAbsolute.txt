@@ -1,0 +1,5 @@
+C:\msysgit\prototypes\builderProt1\BuilderProt1\BuilderProt1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\msysgit\prototypes\builderProt1\BuilderProt1\BuilderProt1\bin\Debug\BuilderProt1.exe
+C:\msysgit\prototypes\builderProt1\BuilderProt1\BuilderProt1\bin\Debug\BuilderProt1.pdb
+C:\msysgit\prototypes\builderProt1\BuilderProt1\BuilderProt1\obj\x86\Debug\BuilderProt1.exe
+C:\msysgit\prototypes\builderProt1\BuilderProt1\BuilderProt1\obj\x86\Debug\BuilderProt1.pdb
