@@ -1,0 +1,8 @@
+C:\msysgit\prototypes\watinRunProt\WatinRunProt\WatinRunProt\obj\x86\Release\ResolveAssemblyReference.cache
+C:\msysgit\prototypes\watinRunProt\WatinRunProt\WatinRunProt\bin\Release\WatinRunProt.exe.config
+C:\msysgit\prototypes\watinRunProt\WatinRunProt\WatinRunProt\bin\Release\WatinRunProt.exe
+C:\msysgit\prototypes\watinRunProt\WatinRunProt\WatinRunProt\bin\Release\WatinRunProt.pdb
+C:\msysgit\prototypes\watinRunProt\WatinRunProt\WatinRunProt\bin\Release\WatiN.Core.dll
+C:\msysgit\prototypes\watinRunProt\WatinRunProt\WatinRunProt\obj\x86\Release\WatinRunProt.exe
+C:\msysgit\prototypes\watinRunProt\WatinRunProt\WatinRunProt\obj\x86\Release\WatinRunProt.pdb
+C:\msysgit\prototypes\watinRunProt\WatinRunProt\WatinRunProt\bin\Release\Interop.SHDocVw.dll
