@@ -24,11 +24,14 @@ namespace WatinRunProt
         {
             IE  ie;
 
-            switch (System.Int16.Parse(args[0]))
+            string url = args[0];
+            int scriptId = System.Int16.Parse(args[1]);
+
+            switch (scriptId)
             {
                 case 1:
                     {
-                        ie = new IE("http://gsd16:8000/vendavo");
+                        ie = new IE(url);
                         ie.ShowWindow(WatiN.Core.Native.Windows.NativeMethods.WindowShowStyle.ShowMaximized);
                         Thread.Sleep(3000);
                         ie.ForceClose();
@@ -42,7 +45,7 @@ namespace WatinRunProt
                         Settings.WaitForCompleteTimeOut = 60;
                         Settings.WaitUntilExistsTimeOut = 300;
                         Settings.AutoCloseDialogs = true;
-                        ie = new IE("http://gsd16:8000/vendavo", false);
+                        ie = new IE(url, false);
                         ie.ShowWindow(WatiN.Core.Native.Windows.NativeMethods.WindowShowStyle.ShowMaximized);
                         Thread.Sleep(3000);
                         ie.ForceClose();
@@ -56,7 +59,23 @@ namespace WatinRunProt
                         Settings.WaitForCompleteTimeOut = 60;
                         Settings.WaitUntilExistsTimeOut = 300;
                         Settings.AutoCloseDialogs = true;
-                        ie = new IE("http://www.google.com", false);
+                        ie = new IE(false);
+                        ie.GoTo(url);
+                        ie.ShowWindow(WatiN.Core.Native.Windows.NativeMethods.WindowShowStyle.ShowMaximized);
+                        Thread.Sleep(3000);
+                        ie.ForceClose();
+                    }; break;
+                case 4:
+                    {
+                        Settings.HighLightElement = true;
+                        Settings.AutoMoveMousePointerToTopLeft = false;
+                        Settings.MakeNewIe8InstanceNoMerge = true;
+                        Settings.AttachToBrowserTimeOut = 60;
+                        Settings.WaitForCompleteTimeOut = 60;
+                        Settings.WaitUntilExistsTimeOut = 300;
+                        Settings.AutoCloseDialogs = true;
+                        ie = new IE(true);
+                        ie.GoTo(url);
                         ie.ShowWindow(WatiN.Core.Native.Windows.NativeMethods.WindowShowStyle.ShowMaximized);
                         Thread.Sleep(3000);
                         ie.ForceClose();
