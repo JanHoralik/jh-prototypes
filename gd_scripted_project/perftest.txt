@@ -1,0 +1,25 @@
+# This example demonstrates how to load more complex structures to GoodData
+# Three datasets: department, employee, and salary are loaded are connected together
+# Check the configuration files that contains the connection points and references
+# see full command documentation at http://developer.gooddata.com/gooddata-cl/cli-commands.html
+
+# Create a new project
+#CreateProject(name="PerfTest1");
+OpenProject(id="8w0tjvlvn59rz225kc0s4ton0ashrrub");
+
+# Store the project ID to file for the subsequent two scripts
+#RememberProject(fileName="pid");
+
+#GenerateCsvConfig(csvHeaderFile="Timing.csv", configFile="timing.xml");
+
+# Load the department data file, using the XML file describing the data
+UseCsv(csvDataFile="Timing.csv",hasHeader="true",configFile="timing.xml");
+
+# Generate the MAQL script describing data model for department data
+#GenerateMaql(maqlFile="timing.maql");
+
+# Execute the MAQL script on the server
+#ExecuteMaql(maqlFile="timing.maql");
+
+# Transfer the department data
+TransferData(incremental="false");

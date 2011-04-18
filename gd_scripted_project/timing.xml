@@ -1,0 +1,42 @@
+<!-- See documentation at http://developer.gooddata.com/gooddata-cl/xml-config.html -->
+
+<schema>
+  <name>Timing</name>
+  <columns>
+    <column>
+      <name>testname</name>
+      <title>TestName</title>
+      <ldmType>ATTRIBUTE</ldmType>
+      <isDateFact>false</isDateFact>
+      <isTimeFact>false</isTimeFact>
+    </column>
+    <column>
+      <name>starttime</name>
+      <title>StartTime</title>
+      <ldmType>ATTRIBUTE</ldmType>
+      <isDateFact>false</isDateFact>
+      <isTimeFact>false</isTimeFact>
+    </column>
+    <column>
+      <name>timestamp</name>
+      <title>TimeStamp</title>
+      <ldmType>ATTRIBUTE</ldmType>
+      <isDateFact>false</isDateFact>
+      <isTimeFact>false</isTimeFact>
+    </column>
+    <column>
+      <name>actiondesc</name>
+      <title>ActionDesc</title>
+      <ldmType>ATTRIBUTE</ldmType>
+      <isDateFact>false</isDateFact>
+      <isTimeFact>false</isTimeFact>
+    </column>
+    <column>
+      <name>actionduration</name>
+      <title>ActionDuration</title>
+      <ldmType>FACT</ldmType>
+      <isDateFact>false</isDateFact>
+      <isTimeFact>false</isTimeFact>
+    </column>
+  </columns>
+</schema>

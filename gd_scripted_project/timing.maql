@@ -1,0 +1,48 @@
+# THIS IS MAQL SCRIPT THAT GENERATES PROJECT LOGICAL MODEL.
+# SEE THE MAQL DOCUMENTATION AT http://developer.gooddata.com/api/maql-ddl.html FOR MORE DETAILS
+
+# CREATE DATASET. DATASET GROUPS ALL FOLLOWING LOGICAL MODEL ELEMENTS TOGETHER.
+CREATE DATASET {dataset.timing} VISUAL(TITLE "Timing");
+
+
+
+# CREATE ATTRIBUTES.
+# ATTRIBUTES ARE CATEGORIES THAT ARE USED FOR SLICING AND DICING THE NUMBERS (FACTS)
+CREATE ATTRIBUTE {attr.timing.timestamp} VISUAL(TITLE "TimeStamp") AS KEYS {d_timing_timestamp.id} FULLSET, {f_timing.timestamp_id};
+ALTER DATASET {dataset.timing} ADD {attr.timing.timestamp};
+
+ALTER ATTRIBUTE {attr.timing.timestamp} ADD LABELS {label.timing.timestamp} VISUAL(TITLE "TimeStamp") AS {d_timing_timestamp.nm_timestamp}; 
+ALTER ATTRIBUTE  {attr.timing.timestamp} DEFAULT LABEL {label.timing.timestamp};
+CREATE ATTRIBUTE {attr.timing.testname} VISUAL(TITLE "TestName") AS KEYS {d_timing_testname.id} FULLSET, {f_timing.testname_id};
+ALTER DATASET {dataset.timing} ADD {attr.timing.testname};
+
+ALTER ATTRIBUTE {attr.timing.testname} ADD LABELS {label.timing.testname} VISUAL(TITLE "TestName") AS {d_timing_testname.nm_testname}; 
+ALTER ATTRIBUTE  {attr.timing.testname} DEFAULT LABEL {label.timing.testname};
+CREATE ATTRIBUTE {attr.timing.starttime} VISUAL(TITLE "StartTime") AS KEYS {d_timing_starttime.id} FULLSET, {f_timing.starttime_id};
+ALTER DATASET {dataset.timing} ADD {attr.timing.starttime};
+
+ALTER ATTRIBUTE {attr.timing.starttime} ADD LABELS {label.timing.starttime} VISUAL(TITLE "StartTime") AS {d_timing_starttime.nm_starttime}; 
+ALTER ATTRIBUTE  {attr.timing.starttime} DEFAULT LABEL {label.timing.starttime};
+CREATE ATTRIBUTE {attr.timing.actiondesc} VISUAL(TITLE "ActionDesc") AS KEYS {d_timing_actiondesc.id} FULLSET, {f_timing.actiondesc_id};
+ALTER DATASET {dataset.timing} ADD {attr.timing.actiondesc};
+
+ALTER ATTRIBUTE {attr.timing.actiondesc} ADD LABELS {label.timing.actiondesc} VISUAL(TITLE "ActionDesc") AS {d_timing_actiondesc.nm_actiondesc}; 
+ALTER ATTRIBUTE  {attr.timing.actiondesc} DEFAULT LABEL {label.timing.actiondesc};
+# CREATE FACTS
+# FACTS ARE NUMBERS THAT ARE AGGREGATED BY ATTRIBUTES.
+CREATE FACT {fact.timing.actionduration} VISUAL(TITLE "ActionDuration") AS {f_timing.f_actionduration};
+ALTER DATASET {dataset.timing} ADD {fact.timing.actionduration};
+
+# CREATE DATE FACTS
+# DATES ARE REPRESENTED AS FACTS
+# DATES ARE ALSO CONNECTED TO THE DATE DIMENSIONS
+# CREATE REFERENCES
+# REFERENCES CONNECT THE DATASET TO OTHER DATASETS
+# THE FACTS OF ATTRIBUTE IS SORT OF DATASET IDENTIFIER
+# IT IS USED FOR COUNT AGGREGATIONS
+CREATE ATTRIBUTE {attr.timing.factsof} VISUAL(TITLE "Records of Timing") AS KEYS {f_timing.id} FULLSET;
+ALTER DATASET {dataset.timing} ADD {attr.timing.factsof};
+
+# SYNCHRONIZE THE STORAGE AND DATA LOADING INTERFACES WITH THE NEW LOGICAL MODEL
+SYNCHRONIZE {dataset.timing};
+
