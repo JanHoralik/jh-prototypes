@@ -33,8 +33,22 @@
     </column>
     <column>
       <name>actionduration</name>
-      <title>ActionDuration</title>
+      <title>Duration</title>
       <ldmType>FACT</ldmType>
+      <isDateFact>false</isDateFact>
+      <isTimeFact>false</isTimeFact>
+    </column>
+    <column>
+      <name>category</name>
+      <title>Category</title>
+      <ldmType>ATTRIBUTE</ldmType>
+      <isDateFact>false</isDateFact>
+      <isTimeFact>false</isTimeFact>
+    </column>
+    <column>
+      <name>hostname</name>
+      <title>Hostname</title>
+      <ldmType>ATTRIBUTE</ldmType>
       <isDateFact>false</isDateFact>
       <isTimeFact>false</isTimeFact>
     </column>

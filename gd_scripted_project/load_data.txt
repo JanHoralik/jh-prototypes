@@ -1,0 +1,34 @@
+# This example demonstrates how to load more complex structures to GoodData
+# Three datasets: department, employee, and salary are loaded are connected together
+# Check the configuration files that contains the connection points and references
+# see full command documentation at http://developer.gooddata.com/gooddata-cl/cli-commands.html
+
+# Create a new project
+RetrieveProject(fileName="pid");
+
+UseCsv(csvDataFile="t1.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t2.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t3.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t4.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t5.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t6.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t7.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t8.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t9.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t10.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t11.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t12.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
+UseCsv(csvDataFile="t13.csv",hasHeader="true",configFile="timing.xml");
+TransferData(incremental="true");
