@@ -2,11 +2,17 @@ require "CSV"
 
 class ProductMappingGenerator
 
-  USE_RANDOM = true
-
+  USE_RANDOM = false
   OUTPUT_FOLDER = "out"	
+
   USED_MLFBs_NAME = "MLFB"
   SALES_DATA_NAME = "VProductSalesData"
+
+  L1_PRICE_MIN = 300
+  L1_PRICE_MIN = 800
+  L1_PRICE_DEFAULT = 777
+  PRICE_BOT = "01/10/2010"
+  PRICE_EOT = "31/12/9999"	
 
   attr_reader :productToPck, :countryToSalesOrg, :rpgs
   
@@ -14,17 +20,6 @@ class ProductMappingGenerator
 
 	@productToPck = {}
 	@countryToSalesOrg = {}
-  end
-
-  def set_fake_values
-
-	  @productToPck = {"10000088"  => "584",
-	 		   "100000939" => "4770"}
-
-          @countryToSalesOrg = { "GB" => ["7011","7021","7031"],
-		  		 "DK" => ["5411","5421"]}
-	  @rpgs = ["VTE","S32"]
-
   end
 
   def load
@@ -54,6 +49,23 @@ class ProductMappingGenerator
 
   end 
 
+  def writeToCsv(array, filename)
+
+	  Dir.mkdir(OUTPUT_FOLDER) if(!Dir.exist?(OUTPUT_FOLDER))
+	  outfile = File.open("#{OUTPUT_FOLDER}\\#{filename}", 'wb')
+
+	  array.each do |row|
+		 
+		 if(row.is_a?(Array)) then
+			outfile.puts(row.join(','))
+		 else
+			 outfile.puts(row)
+		 end
+	  end
+    
+	  outfile.close
+  end
+
   def generateMlfbMappingWithHqpg(country, limit)
 
 	allMlfbs = @productToPck.keys
@@ -81,25 +93,25 @@ class ProductMappingGenerator
 	return mapping	
   end
 
-  def writeToCsv(array, filename)
 
-	  Dir.mkdir(OUTPUT_FOLDER) if(!Dir.exist?(OUTPUT_FOLDER))
-	  outfile = File.open("#{OUTPUT_FOLDER}\\#{filename}", 'wb')
 
-	  array.each do |row|
-		 
-		 if(row.is_a?(Array)) then
-			outfile.puts(row.join(','))
-		 else
-			 outfile.puts(row)
-		 end
-	  end
+  def generateL1Prices(mlfbs)
 
-	  #CSV::new(outfile) do |csv|
-   	  #	csv << array #"ttz, ttz" #row.join(',')
-	  #end
-    
-	  outfile.close
+	prices = []
+
+	mlfbs.each do |mlfb|
+
+		if(USE_RANDOM) then 
+		
+			priceValue = Random.new.rand(L1_PRICE_MIN..L1_PRICE_MAX)
+		else
+			priceValue = L1_PRICE_DEFAULT
+		end	
+			
+		prices << [mlfb, "#{priceValue} EUR", "Approved", PRICE_BOT, PRICE_EOT]
+	end
+
+	return prices
   end
 end
 

@@ -20,17 +20,20 @@ require "product_mapping_generator"
  	    
   end
 
-#  def test_generate_l1_prices
-#	
-#	@g.load
-#	l1Prices = @g.generateL1Prices
-#	assert_equal 10, l1Prices.count
-#	assert_equal "5001 EUR", l1Prices[5][1]
-#	assert_equal "Approved", l1Prices[5][2]
-#	assert_equal "01/10/2010", l1Prices[5][3]
-#	assert_equal "31/12/9999", l1Prices[5][4]
-#	
-#  end
+  def test_generate_l1_prices
+	
+	mlfbs = ["100001162", "100001208", "100001219"]
+
+	@g.load
+	l1Prices = @g.generateL1Prices(mlfbs)
+	assert_equal 3, l1Prices.count
+	assert_equal "100001208", l1Prices[1][0]
+	assert_match "777 EUR", l1Prices[1][1]
+	assert_equal "Approved", l1Prices[1][2]
+	assert_equal "01/10/2010", l1Prices[1][3]
+	assert_equal "31/12/9999", l1Prices[1][4]
+	
+  end
 
 #    def test_generate_l2_prices
 #	
@@ -74,6 +77,7 @@ def test_write_files
 	assert File.exists?("out\\products.txt")
 	@g.writeToCsv(mapping["VProductSalesData"], "sales.csv")
 	assert File.exists?("out\\sales.csv")
+
 end
 
 end
