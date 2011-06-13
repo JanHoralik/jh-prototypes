@@ -74,13 +74,15 @@ require "product_mapping_generator"
 def test_write_files
 
 	@g.load
-	mapping = @g.generateMlfbMappingWithHqpg "DK", 20
+	mapping = @g.generateMlfbMappingWithHqpg "GB", 20
 
 	@g.writeToCsv(mapping["MLFB"], "products.txt")
 	assert File.exists?("out\\products.txt")
 	@g.writeToCsv(mapping["VProductSalesData"], "sales.csv")
 	assert File.exists?("out\\sales.csv")
 
+	@g.writeToCsv(@g.generateL1Prices(mapping["MLFB"]), "l1prices.txt")
+	@g.writeToCsv(@g.generateL2Prices("GB",mapping["MLFB"]), "l2prices.txt")
 end
 
 end

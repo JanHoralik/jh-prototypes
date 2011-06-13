@@ -2,7 +2,7 @@ require "CSV"
 
 class ProductMappingGenerator
 
-  USE_RANDOM = false
+  USE_RANDOM = true
   OUTPUT_FOLDER = "out"	
 
   CURRENCY = {"GB" => "GBP", "DK" => "DKK", "NL" => "EUR", "PL" => "PLZ"}
@@ -31,7 +31,8 @@ class ProductMappingGenerator
 
 	  CSV.foreach("SProduct.csv") do |row|
     	
-		next if row[0] =~ /^#/
+		# skip lines with comments and MLFBs in different format than *-*-*  
+		next if (row[0] =~ /^#/ || row[0] !~ /.*\-.*\-.*/) 
 
 		mlfb = row[0]
 		pck = row[4]
