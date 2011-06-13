@@ -2,12 +2,9 @@ require "CSV"
 
 class ProductMappingGenerator
 
-  USE_RANDOM = false
-  OUTPUT_FOLDER = "out"	
 
   CURRENCY = {"GB" => "GBP", "DK" => "DKK", "NL" => "EUR", "PL" => "PLZ"}
 
-  USED_MLFBs_NAME = "MLFB"
   SALES_DATA_NAME = "VProductSalesData"
   RPG_PCK_DATA_NAME = "SCountryRpgPckData"
 
@@ -22,7 +19,10 @@ class ProductMappingGenerator
   
   attr_reader :productToPck, :countryToSalesOrg, :rpgs
   
-  def initialize
+  def initialize(_useRandom, _outputFolder)
+
+	@useRandom = _useRandom
+	@outputFolder = _outputFolder
 
 	@productToPck = {}
 	@countryToSalesOrg = {}
@@ -63,10 +63,29 @@ class ProductMappingGenerator
 
   end 
 
+  def selectProducts(limit)
+
+        selected = []
+
+	(0..limit-1).each do |i|
+		
+		if(@useRandom) then 
+			index = Random.new.rand(0..@productToPck.count-1)
+		else
+			index = i
+		end
+
+		selected << @productToPck.keys[index]	
+	end
+
+	return selected
+  end
+
+
   def writeToCsv(array, filename)
 
-	  Dir.mkdir(OUTPUT_FOLDER) if(!Dir.exist?(OUTPUT_FOLDER))
-	  outfile = File.open("#{OUTPUT_FOLDER}\\#{filename}", 'wb')
+	  Dir.mkdir() if(!Dir.exist?(@outputFolder))
+	  outfile = File.open("#{@outputFolder}\\#{filename}", 'wb')
 
 	  array.each do |row|
 		 
@@ -80,44 +99,36 @@ class ProductMappingGenerator
 	  outfile.close
   end
 
-  def generateMlfbMappingWithHqpg(country, limit)
-
-	allMlfbs = @productToPck.keys
+  def generateMlfbMappingWithHqpg(products, country)
 	
 	salesData = []
-        mlfbsUsed = [] 	
 	
-	(0..limit-1).each do |i|  
+	products.each do |mlfb|  
 	
-		if(USE_RANDOM) then 
+		if(@useRandom) then 
 			salesOrgIndex = Random.new.rand(0..@countryToSalesOrg[country].count-1)
 		else
 			salesOrgIndex = 0
 		end	
 
 
-		salesData << [allMlfbs[i],@countryToSalesOrg[country][salesOrgIndex], nil, nil, 15]
-		mlfbsUsed << allMlfbs[i] 		
+		salesData << [mlfb,@countryToSalesOrg[country][salesOrgIndex], nil, nil, 15]
 	end
 
 	mapping = {}
-	mapping[USED_MLFBs_NAME] = mlfbsUsed
 	mapping[SALES_DATA_NAME] = salesData
 
 	return mapping	
   end
 
-  def generateMlfbMappingWithRpg(country, limit)
-
-	allMlfbs = @productToPck.keys
+  def generateMlfbMappingWithRpg(products, country)
 	
 	salesData = []
         rpgPckData = []
-	mlfbsUsed = [] 	
 	
-	(0..limit-1).each do |i|  
+	products.each do |mlfb|  
 	
-		if(USE_RANDOM) then 
+		if(@useRandom) then 
 			rpgIndex = Random.new.rand(0..@rpgs.count-1)
 			salesOrgIndex = Random.new.rand(0..@countryToSalesOrg[country].count-1)
 			
@@ -126,18 +137,15 @@ class ProductMappingGenerator
 			salesOrgIndex = 0	
 		end	
 
-		mlfb = allMlfbs[i]
 		pck = @productToPck[mlfb]
 		rpg = @rpgs[rpgIndex]
 		salesOrg = @countryToSalesOrg[country][salesOrgIndex]
 
 		salesData << [mlfb, salesOrg, rpg, nil, 15]
 		rpgPckData << [country, rpg, pck] 
-		mlfbsUsed << mlfb 		
 	end
 
 	mapping = {}
-	mapping[USED_MLFBs_NAME] = mlfbsUsed
 	mapping[SALES_DATA_NAME] = salesData
 	mapping[RPG_PCK_DATA_NAME] = rpgPckData
 
@@ -151,7 +159,7 @@ class ProductMappingGenerator
 
 	mlfbs.each do |mlfb|
 
-		if(USE_RANDOM) then 
+		if(@useRandom) then 
 		
 			priceValue = Random.new.rand(L1_PRICE_MIN..L1_PRICE_MAX)
 		else
@@ -170,7 +178,7 @@ class ProductMappingGenerator
 
 	mlfbs.each do |mlfb|
 
-		if(USE_RANDOM) then 
+		if(@useRandom) then 
 		
 			priceValue = Random.new.rand(L2_PRICE_MIN..L2_PRICE_MAX)
 		else

@@ -1,0 +1,1938 @@
+#fields:VName,VLabel,Active
+#
+*HA,*HA-Dummy for IMS 100393945,true
+001,"001-Automatsikringer 70mm, 6kA",true
+002,"002-Automatsikringer 70mm, 10kA",true
+003,"003-Automatsikringer 70mm, 15 - 50kA",true
+004,004-Kombiafbryder bestående af automatsikring og fejlstrømsafbryder. HFI/FI-Relæ,true
+005,005-Automatsikringer UL 489 + UL komponenter,true
+006,"006-Automatsikringer 55mm / 3; 4,5; 6 - 10kA",true
+007,007-Beskyttelsesenhed AFDU,true
+008,008-Kombiafbryder bestående af automatsikring og fejlstrømsafbryder. HFI/FI-Relæ type A,true
+009,"009-Fejlstrømsafbrydere RCM, MRCD",true
+010,010-Kombiafbryder bestående af automatsikring og fejlstrømsafbryder. HFI/FI-Relæ type B,true
+011,"011-Fejlstrømsafbrydere HPFI/HFI relæ 55mm, 70mm, type A",true
+012,"012-Fejlstrømsafbrydere 55mm, 70mm HPFI/HFI",true
+013,"013-Fejlstrømsafbrydere 70mm, type B",true
+014,014-Fejlstrømsafbrydere specielle typer,true
+015,015-Fejlstrømsafbrydere tilbehør,true
+016,"016-SITOR-, SILIZED-sikringer",true
+017,"017-NH-, DIAZED, NEOZED-sikringer / Cylindriske sikringer",true
+018,018-UL CC sikringer,true
+019,"019-MCB Specielle ICP 70mm 4,5kA",true
+020,020-Automatsikringer tilbehør,true
+021,021-DELTA Installationsprodukter stikontaktsystemer,true
+022,022-Instabus operatør paneler,true
+024,024-Røgmeldere,true
+025,025-Timere og kontakture,true
+026,026-Overvågningsrelæer,true
+027,027-Overvågningsenheder - elektriske værdier,true
+028,"028-Transformator, kontaktorer, kiprelæer",true
+029,029-Lastafbrydere,true
+030,030-Instabus / KNX,true
+031,031-Tilbehør til 60mm Busbar systemer,true
+032,032-SIMBOX Små fordelingstavler,true
+033,033-Måleenheder,true
+034,034-ALPHA 630 tavler,true
+035,035-Prijsgroep CP-Service,true
+036,036-ALPHA boks,true
+037,037-Overspændingsbeskyttelsesenheder,true
+038,038-ALPHA-Installationssystem NF,true
+039,039-ALPHA 160 tavler,true
+040,040-Metering boxes,true
+041,041-Rækkeklemmer 8WA,true
+042,042-SIKUS Classic Installationsfordelingssystem,true
+043,043-ALPHA-Målertavlesystem,true
+044,044-Rækkeklemmer 8WH,true
+045,045-ALPHA-Installationssystem BS,true
+046,046-ALPHA 8HP ISO kasser,true
+047,047-SITOR Semiconductor protection fuses,true
+049,049-Price group 049,true
+08A,"08A-IND 1LA7/1LG4, Voorraad motoren, ashoogt",true
+08B,"08B-IND 1LA5, aluminium, ashoogte 180-225",true
+08C,"08C-IND 1LA8/1PQ8, gietijzer, ashoogte 315-4",true
+08D,"08D-IND 1MA6, EEx e, gietijzer, ashoogte 100",true
+08E,"08E-IND 1LA6, gietijzer, ashoogte 100-160",true
+08F,"08F-IND 1MJ6, EEx de, gietijzer, ashoogte 71",true
+08G,"08G-IND 1MJ8/1MJ1, EEx de, gietijzer",true
+08H,08H-IND Toebehoren,true
+08I,"08I-IND 1LG6, gietijzer, ashoogte 180-315, E",true
+08J,08J-IND Motox onderdelen,true
+08K,08K-IND Cavex onderdelen,true
+08L,08L-IND Koppelingen N-Eupex,true
+08M,08M-IND Tandwielkasten onderdelen,true
+08N,08N-IND RESERVED,true
+08P,08P-IND Koppelingen Bipex,true
+08Q,08Q-IND Koppelingen Arpex ARS 6,true
+08R,08R-IND Koppelingen Rupex bouten/buffers,true
+08S,08S-IND Tandwielkasten,true
+08T,08T-IND Motox-N/GGM motorreductoren,true
+08U,08U-IND Motox-N/GGM Reserve onderdelen,true
+08X,08X-IND Koppelingen Zapex,true
+08Y,08Y-IND Koppelingen Elpex,true
+08Z,08Z-IND Koppelingen Fludex,true
+098,098-IND RESERVED,true
+099,099-IND POSMO,true
+09A,"09A-IND Masterdrive VC (6E71, Chassis II)",true
+09B,09B-IND RESERVED,true
+09C,09C-IND RESERVED,true
+09D,09D-IND RESERVED,true
+09E,09E-IND RESERVED,true
+09F,09F-IND SIMATIC ET 200S frequentieomvormers,true
+09G,09G-IND RESERVED,true
+09H,09H-IND SINAMICS G110,true
+09I,09I-IND RESERVED,true
+09J,09J-IND RESERVED,true
+09K,09K-IND SINAMICS G120,true
+09L,09L-IND SINAMICS S110 en S120 AC/AC,true
+09M,09M-IND MicroMaster 3e en 4e generatie,true
+09N,09N-IND SINAMICS S120,true
+09P,09P-IND SINAMICS G130,true
+09R,09R-IND Reserveonderdelen drives,true
+09S,09S-IND SIMOREG DC-Master 6RA70,true
+09T,09T-IND Masterdrive MC & VC compact plus,true
+09U,09U-IND Masterdrive MC & VC compact en chass,true
+09V,09V-IND RESERVED,true
+09W,09W-IND SINAMICS G150,true
+09X,09X-IND Branche oplossingen (IND R251),true
+09Y,09Y-IND SIMOTION hardware,true
+09Z,09Z-IND SIMOTION software,true
+0Z9,0Z9-IND RESERVED,true
+100,100-IND SIMODRIVE 611 Drives,true
+101,101-IND SINUMERIK,true
+102,102-IND SINUMERIK kabels en toebehoren,true
+103,103-IND SIMODRIVE motoren,true
+104,104-IND SIROTEC,true
+105,105-IND WF-techniek,true
+106,"106-IND 1PH8,1FK7 tot en met ashoogte 100",true
+107,107-IND RESERVED,true
+108,108-IND RESERVED,true
+109,109-IND Positioneerkaarten FM353 / FM354,true
+10A,10A-IND RESERVED,true
+10B,10B-IND RESERVED,true
+10C,10C-IND RESERVED,true
+10D,10D-IND RESERVED,true
+10E,10E-IND RESERVED,true
+10F,10F-IND RESERVED,true
+10G,10G-IND RESERVED,true
+10H,10H-IND RESERVED,true
+10I,10I-IND RESERVED,true
+10J,10J-IND RESERVED,true
+10K,10K-IND RESERVED,true
+10L,10L-IND RESERVED,true
+10M,10M-IND RESERVED,true
+10N,10N-IND RESERVED,true
+10O,10O-IND RESERVED,true
+10P,10P-IND RESERVED,true
+10Q,10Q-IND RESERVED,true
+10R,10R-IND RESERVED,true
+10S,10S-IND RESERVED,true
+10T,10T-IND RESERVED,true
+10U,10U-IND RESERVED,true
+10V,10V-IND RESERVED,true
+10W,10W-IND SIWAREX weeg componenten,true
+10X,10X-IND RESERVED,true
+10Y,10Y-IND RESERVED,true
+10Z,10Z-IND RESERVED,true
+110,110-IND RESERVED,true
+111,111-IND RESERVED,true
+112,112-IND RESERVED,true
+113,113-IND RESERVED,true
+114,114-IND RESERVED,true
+11A,11A-IND RESERVED,true
+11B,11B-IND RESERVED,true
+11C,11C-IND RESERVED,true
+11D,11D-IND RESERVED,true
+11E,11E-IND RESERVED,true
+11F,11F-IND RESERVED,true
+11G,11G-IND RESERVED,true
+11H,11H-IND RESERVED,true
+11I,11I-IND RESERVED,true
+11J,11J-IND RESERVED,true
+11K,11K-IND RESERVED,true
+11L,11L-IND RESERVED,true
+11M,11M-IND RESERVED,true
+11O,11O-IND RESERVED,true
+11P,11P-IND RESERVED,true
+11Q,11Q-IND RESERVED,true
+11R,11R-IND RESERVED,true
+11S,11S-IND RESERVED,true
+11T,11T-IND RESERVED,true
+11U,11U-IND RESERVED,true
+11V,11V-IND RESERVED,true
+11X,11X-IND RESERVED,true
+11Y,11Y-IND RESERVED,true
+11Z,11Z-IND RESERVED,true
+120,120-IND RESERVED,true
+121,121-IND RESERVED,true
+122,122-IND RESERVED,true
+124,124-IND RESERVED,true
+12A,12A-IND SIMATIC LOGO!,true
+12B,12B-IND SIMATIC S7 Micro PLC (S7-200),true
+12C,12C-IND SIMATIC S7 PLC's,true
+12D,12D-IND SIMATIC Industriële software,true
+12E,12E-IND SIMATIC Decentrale I/O,true
+12F,12F-IND SIMATIC Visualisatie,true
+12G,12G-IND SIMATIC Industriële netwerken,true
+12H,12H-IND SIMATIC Industrie PC's,true
+12I,12I-IND SIMATIC SITOP Voedingen,true
+12J,12J-IND SIMATIC PCS7,true
+12K,"12K-IND SIMATIC sensoren, RFID en Code Readi",true
+12L,12L-IND SIMATIC uitloopproducten,true
+12M,12M-IND SIMATIC IT producten,true
+12N,12N-IND SIMATIC ASIC,true
+12O,12O-IND SIMATIC Telecontrol,true
+131,131-IND RESERVED,true
+132,132-IND RESERVED,true
+133,133-IND RESERVED,true
+13A,13A-IND ULTRAMAT 23 continu gas analysers,true
+13B,13B-IND ULTRAMAT 6; ULTRAMAT/OXYMAT 6 contin,true
+13C,13C-IND OXYMAT 6; OXYMAT61; OXYMAT64 continu,true
+13D,13D-IND CALOMAT 6; CALOMAT 62 continu gas an,true
+13E,13E-IND FIDAMAT 6 total hydrocabons analyser,true
+13F,13F-IND LDS 6; SITRANS SL continu gas analys,true
+13I,13I-IND CO2 meters,true
+143,143-IND RESERVED,true
+145,145-IND RESERVED,true
+14A,14A-IND SIPART PS2 klepstandstellers,true
+14B,14B-IND SIPART DR regelaars,true
+14C,14C-IND SITRANS P DSIII druk- en drukverschi,true
+14D,14D-IND SITRANS P Z; ZD; MPS; P300 druk tran,true
+14E,14E-IND SITRANS T temperatuur transmitters,true
+14F,14F-IND SIREC schrijvers,true
+14G,14G-IND RESERVED,true
+14H,14H-IND RESERVED,true
+14I,14I-IND SITRANS LPS100/200; LVS100/200; LVL1,true
+14J,14J-IND SITRANS L POINTEK CLS100; CLS200; CL,true
+14K,14K-IND SITRANS L PROBE LU; PROBE ultrasoon,true
+14L,14L-IND SITRANS L ultrasone niveau omvormers,true
+14M,14M-IND SITRANS L LC300; LC500 niveau transm,true
+14N,14N-IND SITRANS LR200; LR300; PROBE LR radar,true
+14O,14O-IND SITRANS LR 250; LR260 radar niveau t,true
+14P,14P-IND SITRANS LR 400; LR460 radar niveau t,true
+14Q,14Q-IND SITRANS AS 100; CU02 akoestische omv,true
+14R,14R-IND SITRANS LG200 geleiden radar niveau,true
+14S,14S-IND RESERVED,true
+14T,14T-IND SITRANS FM MAGFLO; TRANSMAG electrom,true
+14U,14U-IND SITRANS FC MASSFLO coriolis massa fl,true
+14V,14V-IND SITRANS FU SONOFLO ultrasone flowmet,true
+14W,14W-IND SITRANS FU ultrasone clamp-on flowme,true
+14X,14X-IND SITRANS FX vortex flowmeters,true
+14Y,14Y-IND SITRANS FR mechanische flowmeters,true
+14Z,14Z-IND RESERVED,true
+155,155-IND RESERVED,true
+15A,15A-IND ALPHA en SIVACON S4 verdeelsystemen,true
+15B,15B-IND BETA Installatiemateriaal,true
+15C,15C-IND GAMMA KNX Instabus,true
+15D,15D-IND DELTA wandschakelmateriaal,true
+15E,15E-IND RESERVED,true
+15F,15F-IND Fuses Diazed en Neozed smeltveilighe,true
+15G,15G-IND RESERVED,true
+15I,15I-IND RESERVED,true
+15K,15K-IND SIVACON railkanaalsystemen,true
+15M,15M-IND RESERVED,true
+15O,15O-IND RESERVED,true
+15P,15P-IND SENTRON vermogensautomaten en (zeker,true
+15Q,15Q-IND RESERVED,true
+15Z,15Z-IND RESERVED,true
+165,165-IND RESERVED,true
+16A,16A-IND SIRIUS schakelmateriaal algemeen,true
+16B,16B-IND SIRIUS schakelmateriaal electronisch,true
+16C,16C-IND SIRIUS schakelmateriaal compact,true
+16D,16D-IND SIRIUS schakelmateriaal gateway,true
+16E,16E-IND RESERVED,true
+16F,16F-IND RESERVED,true
+16G,16G-IND RESERVED,true
+16H,16H-IND RESERVED,true
+16I,16I-IND RESERVED,true
+16K,16K-IND RESERVED,true
+16M,16M-IND RESERVED,true
+16N,16N-IND RESERVED,true
+16O,16O-IND RESERVED,true
+16P,16P-IND RESERVED,true
+16Q,16Q-IND RESERVED,true
+16S,16S-IND RESERVED,true
+16T,16T-IND RESERVED,true
+16U,16U-IND RESERVED,true
+16W,16W-IND RESERVED,true
+16Y,16Y-IND RESERVED,true
+16Z,16Z-IND RESERVED,true
+175,175-IND RESERVED,true
+17A,17A-IND RESERVED,true
+17C,17C-IND RESERVED,true
+17E,17E-IND RESERVED,true
+191,191-Global bookings,true
+192,192-Global bookings,true
+193,193-Accessories Moulded Case Circuit Breaker,true
+194,194-Fans,true
+195,195-Low voltage switch gear/board (SIVACON),true
+1B1,1B1-Bonus CC,true
+1B3,1B3-Bonus PD,true
+1B6,1B6-Bonus MD,true
+200,200-LOGO!,true
+201,201-SIMATIC PC Micro Box,true
+202,202-SIMATIC Rack / Microbox PC,true
+203,203-Box PC 400 / 500,true
+204,204-SIMATIC PC IL,true
+205,205-SIMATC Rack / Box PC,true
+206,206-SIMATIC IPC Customized PC,true
+207,207-IPC Solution: Electronic Assembly,true
+208,208-Industrial PC generelt,true
+209,209-SICOMP Microcomputersystems,true
+20A,20A-HICOM300,true
+20B,20B-HICOM300 toestellen,true
+210,210-SIMATIC S7-200,true
+211,211-Electronics and More general,true
+212,212-SIMATIC S7-1200,true
+215,215-Innovation,true
+220,220-SIMATIC S7-200,true
+229,229-SIMATIC S5-90/95/100,true
+230,230-SIMATIC S7-300 CPU/Add-On,true
+231,231-SIMATIC S7-300 I/O,true
+232,"232-SIMATIC WIN AC, PC-based Control",true
+235,235-SIMATIC C7,true
+237,237-SIMATIC HMI Basic paneler 4-6,true
+238,238-SIMATIC HMI Basic paneler 10-15,true
+239,239-SIMATIC S5-115,true
+240,240-SIMATIC S7-400,true
+241,"241-SIMATIC Failsafe systemer S7, DP",true
+245,"245-SIMATIC, M7-400 ( CPU,FU,ZUBEHOER )",true
+246,246-SYMADYN/TDC,true
+249,249-SIMATIC S5-135/155,true
+250,"250-SIMATIC DP, distributed I/O´s",true
+251,251-PROFIBUS Technology komponenter,true
+252,252-PROFINET Technology komponenter,true
+25A,25A-Gigaset groep 1,true
+25B,25B-Gigaset groep 2,true
+25C,25C-Gigaset groep 3,true
+25G,25G-BS-HICOM,true
+25H,25H-VS-HINET,true
+25I,25I-Toestellen,true
+260,260-SIMATIC PG Hardware,true
+261,261-SIMATIC PG Add-On,true
+263,263-SIMATIC HMI Thin Client,true
+264,264-SIMATIC Bundles Microbox?????,true
+265,265-SIMATIC Standard Tool,true
+266,266-SIMATIC Engineering Tools,true
+267,267-Kontrakt SIMATIC Tools,true
+268,268-SIMATIC WIN-AC,true
+269,269-Kontrakt SIMATIC HM,true
+270,270-SIMATIC HMI Paneler 07x / 17x,true
+271,271-SIMATIC HMI Paneler 27x / 37x,true
+272,272-SIMATIC HMI SW SCADA ES,true
+273,273-SIMATIC HMI Micro Paneler,true
+274,274-SIMATIC HMI Panel-PC 47x/57x,true
+275,"275-SIMATIC HMI Panel-PC67x/87x,Flatpanel",true
+276,"276-SIMATIC HMI SW SCADA RT,  WinCC",true
+277,277-SIMATIC HMI RT-SW,true
+278,278-SIMATIC HMI CS/ES-SW,true
+279,279-SIMATIC HMI Ind. Komm. Enheder,true
+280,280-SIMATIC PCS 7,true
+281,281-SIMATIC PCS7 SW/Dokumentation,true
+282,282-Kontrakt SIMATIC PCS 7,true
+283,283-TELEPERM/PCS7,true
+285,285-TI Products,true
+286,286-APACS / Quadlog,true
+287,287-TELEPERM,true
+288,288-Cemat/Braumat,true
+289,289-MES Products,true
+290,290-MES Produkter,true
+291,"291-SIMATIC, S5 - 115, CPU",true
+292,"292-SIMATIC, S5 - 135/155, CPU",true
+294,294-ETM-SW PVSS,true
+296,296-CIS-SW COMOS,true
+297,297-SIMATIC TDC,true
+298,298-Resale Products,true
+299,"299-SIMATIC, ALTTECHNIK",true
+2A0,2A0-Phased out: LOGO!,true
+2A1,2A1-Phased out: SIMATIC PC Micro Box,true
+2A2,2A2-Phased out: SIMATIC Rack/Microbox,true
+2A3,2A3-Phased out: Box PC 400 / 500,true
+2A4,2A4-Phased out: SIMATIC PC IL,true
+2A5,2A5-Phased out: SIMATC Rack / Box PC,true
+2A6,2A6-Phased out: IPC custom.SIMATIC PC,true
+2A7,2A7-Phased out: IPC Solution for EA,true
+2A8,2A8-Phased out: Industrial PC general,true
+2A9,2A9-Phased out: Micro Autom. general,true
+2AP,2AP-Udfaset SIMATIC,true
+2B0,2B0-Bonus,true
+2B1,2B1-Phased out: EaM general,true
+2B2,2B2-Phased out: SIMATIC S7-1200,true
+2B5,2B5-Phased out: SIMATIC S7-1500,true
+2C0,2C0-Phased out: SIMATIC S7-200,true
+2C9,2C9-Phased out: SIMATIC Add-On,true
+2D0,2D0-Phased out: SIMATIC S7-300,true
+2D5,2D5-Phased out: SIMATIC C7,true
+2D7,2D7-Phased out: HMI BASIC PANEL 4-6,true
+2D8,2D8-Phased out: HMI BASIC PANEL 10-15,true
+2D9,2D9-Phased out: SIMATIC S5-115,true
+2E0,2E0-Phased out: SIMATIC S7-400,true
+2E1,"2E1-Phased out: Failsafe Systems S7, DP",true
+2E6,2E6-Phased out: SYMADYN/TDC,true
+2E9,2E9-Phased out: SIMATIC S5-135/155,true
+2F0,2F0-Phased out: SIMATIC-DP,true
+2F1,2F1-Phased out: Profibus TechnologyComp,true
+2F2,2F2-Phased out: PROFINET TechnologyComp,true
+2G0,2G0-Phased out: SIMATIC PG Hardware,true
+2G1,2G1-Phased out: SIMATIC PG Add-On,true
+2G3,2G3-Phased out: SIMATIC HMI Thin Client,true
+2G4,2G4-Phased out: SIMATIC Bundle,true
+2G5,2G5-Phased out: SIMATIC Standard Tool,true
+2G6,2G6-Phased out: SIMATIC Eng. Tools,true
+2G7,2G7-Phased out: Contract SIMATIC Tools,true
+2G8,2G8-Phased out: SIMATIC WIN-AC,true
+2G9,2G9-Phased out: Contract SIMATIC HM,true
+2H0,2H0-Phased out: SIMATIC HMI Pan.07x/17x,true
+2H1,2H1-Phased out: SIMATIC HMI Pan.27x/37x,true
+2H2,2H2-Phased Out: Simatic HMI Scada ES,true
+2H3,2H3-Phased out: SIMATIC HMI Micro Panel,true
+2H4,2H4-Phased out: SIMATIC HMI Panel-PC_1,true
+2H5,2H5-Phased out: SIMATIC HMI Panel-PC_2,true
+2H6,2H6-Phased out: SIMATIC HMI SW WinCC,true
+2H7,2H7-Phased out: SIMATIC HMI RT-SW,true
+2H8,2H8-Phased out: SIMATIC HMI CS/ES-SW,true
+2H9,2H9-Phased out: SIMATIC HMI Ind.Com.Dev,true
+2I0,2I0-Phased out: SIMATIC PCS 7,true
+2I1,2I1-Phased out: SIMATIC PCS7 SW/Doc.,true
+2I2,2I2-Phased out: Contract SIMATIC PCS 7,true
+2I5,2I5-Phased out: TI Products,true
+2I6,2I6-Phased out: APACS / Quadlog,true
+2I7,2I7-Phased out: TELEPERM,true
+2I8,2I8-Phased out: Cemat/Braumat,true
+2J0,2J0-Phased out: MES Products,true
+2J4,2J4-Phased out: ETM-SW PVSS,true
+2J6,2J6-Phased out: CIS-SW COMOS,true
+2SP,2SP-Special offers: SIMATIC,true
+2W0,2W0-Phased out: PQ+ZUE n.rel. PC Midrng,true
+2W1,2W1-Phased out: PQ+ZUE not rel. Box PC,true
+2W2,2W2-Phased out: PQ+ZUE not relevant,true
+2X0,2X0-PQ+ZUE not relevant PC Midrange,true
+2X1,2X1-PQ+ZUE not relevant PC Box PC,true
+2X2,2X2-PQ+ZUE not relevant,true
+2Y0,2Y0-Phased out: LOGO! / Special offers,true
+2Y2,2Y2-Phased out: S7-200 / Special offers,true
+2Y3,2Y3-Phased out: Other CA HMI,true
+2Y4,2Y4-Phased out: Other PLC,true
+2Y6,2Y6-Phased out: Other SCE,true
+2Y7,2Y7-Phased out: Other  HMI,true
+2Y8,2Y8-Phased out: PCS7/APACS/QUADLOG,true
+2Y9,2Y9-Phased out: Other MES,true
+2YZ,2YZ-Phased out: Special items SIMATIC,true
+2Z0,2Z0-LOGO! / Special offers,true
+2Z2,2Z2-S7-200 / Special offers,true
+2Z3,2Z3-Other SIMATIC,true
+2Z4,2Z4-Other PLC,true
+2Z5,2Z5-Other Automotive,true
+2Z6,2Z6-Other SCE,true
+2Z7,2Z7-Other  HMI,true
+2Z8,2Z8-Other PCS7/APACS/QUADLOG,true
+2Z9,2Z9-Other MES,true
+2ZZ,2ZZ-Special items SIMATIC,true
+301,301-MM 1-3 History,true
+302,302-Sivolt,true
+311,311-MM Junior,true
+312,312-MM3 Basic,true
+313,313-MM3 Vector,true
+314,314-MD3 Vector,true
+315,315-MM / MD Eco,true
+316,316-MICROMASTER 3 Optioner / Tilb.,true
+317,317-CM2 / MMI2,true
+318,318-CM2 / MMI2 Optioner,true
+319,319-MICROMASTER 411 / COMBIMASTER 411 Optioner,true
+321,321-MICROMASTER 410,true
+322,322-MICROMASTER 420,true
+323,323-MICROMASTER 440 < 90 kW,true
+324,324-MICROMASTER 440 > 90 kW,true
+325,325-MICROMASTER 4 / SINAMICS Optioner,true
+326,326-MICROMASTER 4 IP56,true
+327,327-MICROMASTER 430 < 90 kW,true
+328,328-MICROMASTER 430 > 90 kW,true
+329,329-MICROMASTER 430 IP56,true
+331,331-MICROMASTER 4 SINAMICS G reservedele,true
+332,332-MICROMASTER 411,true
+333,333-COMBIMASTER 411,true
+334,334-SINAMICS G110,true
+335,335-SINAMICS G110/G120 Optioner,true
+336,336-SINAMICS G110/G120 Kampagne Box,true
+337,337-Frekvensomformer ET200 FC,true
+338,338-SINAMICS G120 PM <= 11kW,true
+339,339-SINAMICS G120 PM > 11kW,true
+340,340-SINAMICS G120C,true
+341,341-SINAMICS G120 CU230,true
+342,342-SINAMICS G120 CU240,true
+343,343-SINAMICS G120 Options,true
+344,344-SINAMICS G110 Options,true
+345,345-SINAMICS G120 PM AC690,true
+346,346-SINAMICS G110D / G120D,true
+347,347-SINAMICS G120P,true
+348,348-Bundle Academy,true
+390,390-Gearmotorer,true
+395,395-FL gearmotorer,true
+396,396-FL gearmotorer tilb. / reservedele,true
+398,398-Gearmotorer tilb. / reservedele,true
+3B1,3B1-Bonus Motors,true
+3B2,3B2-Bonus Drives,true
+3B3,3B3-Bonus Geared Motors,true
+3C0,3C0-Motoren 1LG0,true
+3C1,3C1-Sinamics V10,true
+3F0,3F0-MOTOX-N/GGM cylindrisk,true
+3F1,3F1-MOTOX-N/GGM parallel aksel,true
+3F2,3F2-MOTOX-N/GGM facet,true
+3F3,3F3-MOTOX-N/GGM cylindrisk worm,true
+3F4,3F4-MOTOX-N/GGM L parts (mount. parts),true
+3F5,3F5-MOTOX-CPL gearmotorer,true
+3F6,3F6-CAVEX worm gear,true
+3F7,3F7-Small CAVEX worm gear,true
+3F8,3F8-MOTOX automation,true
+3F9,3F9-Handelsware Getriebemotoren,true
+3FA,3FA-Service Getriebemotoren,true
+3L0,3L0-IM-Loher Ex-motors,true
+3L1,3L1-IM-Loher Non-Ex-motors,true
+3L2,"3L2-IM-Loher service, boni, spare parts",true
+3N0,3N0-NEMA motors - general purpose - EPAct,true
+3N1,3N1-NEMA motors - general purpose - NPE Plus,true
+3N2,3N2-NEMA motors - general purpose - brand la,true
+3N3,3N3-NEMA motors - severe duty - EPAct,true
+3N4,3N4-NEMA motors - severe duty - NPE Plus,true
+3N5,3N5-NEMA motors - severe duty - brand label,true
+3N6,3N6-NEMA motors - explosion proof - EPAct,true
+3N7,3N7-NEMA motors - explosion proof - NPE Plus,true
+3N8,3N8-NEMA motors - explosion proof - brand la,true
+3N9,3N9-NEMA motors - definite purpose - P-Base,true
+3NA,3NA-NEMA motors - definite purpose - in line,true
+3NB,3NB-NEMA motors - definite purpose - inverte,true
+3NC,3NC-NEMA motors - definite purpose - wash do,true
+3ND,3ND-NEMA motors - definite purpose - C-Face,true
+3NE,3NE-NEMA motors - definite purpose - Brake,true
+3NF,3NF-NEMA motors - definite purpose - NEMA de,true
+3NG,3NG-NEMA motors - definite purpose - N.N.,true
+3NH,3NH-NEMA motors - definite purpose - N.N.,true
+3NI,3NI-NEMA motors - definite purpose - N.N.,true
+3NJ,3NJ-NEMA motors - definite purpose - N.N.,true
+3NK,3NK-NEMA motors - definite purpose - N.N.,true
+3NL,3NL-NEMA motors - definite purpose - N.N.,true
+3NM,3NM-NEMA motors - definite purpose - N.N.,true
+3NN,3NN-NEMA motors - definite purpose - N.N.,true
+3NO,3NO-NEMA motors - definite purpose - N.N.,true
+3NP,3NP-NEMA motors - definite purpose - brand l,true
+3NQ,3NQ-NEMA motors - customized motors - custom,true
+3NR,3NR-NEMA motors - customized motors - custom,true
+3NS,3NS-NEMA motors - customized motors - custom,true
+3NT,3NT-NEMA motors - customized motors - brand,true
+3NU,3NU-NEMA motors - single phase - TEFC and OD,true
+3NV,3NV-NEMA motors - single phase - brand label,true
+3NW,"3NW-NEMA motors - parts, mod kits, accessori",true
+3Z0,3Z0-Standard lavspændingsmotorer på lager,true
+3Z1,3Z1-Standard lavspændingsmotorer ikke på lager,true
+3Z2,3Z2-1-faset lavspændingsmotorer ikke på lager,true
+3Z3,3Z3-Lavspændingsmotorer ikke på lager,true
+3Z4,3Z4-EX (e) motorer,true
+3Z5,3Z5-EX  (d) motorer,true
+3Z6,3Z6-Motor tilb.. / reservedele,true
+3Z7,3Z7-Low Voltage Motors Modification Kits,true
+3Z8,3Z8-Third Party Low Voltage Motors,true
+3Z9,3Z9-Customer Specific Motors,true
+3ZD,3ZD-Customer Specific Drives,true
+400,400-SITOP power,true
+401,401-LOGO! Power,true
+402,402-SITOP customized,true
+403,403-SITOP S7-300 /PS307,true
+404,404-SITOP Smart,true
+405,405-SITOP Modular,true
+406,406-SITOP Select,true
+407,407-SITOP DC USV,true
+408,408-SITOP sonstiges,true
+409,409-SITOP customized,true
+40A,40A-SITOP Phased out Products,true
+410,410-SITOP connect,true
+430,430-Prijsgroep CP-Service,true
+431,431-SINVERT PVS/PVU,true
+439,439-SINVERT Spare parts PVS/PVU,true
+440,440-Prijsgroep CP-Service,true
+450,450-Identifikationssysteme MOBY,true
+460,460-SIMATIC PC Midrange,true
+461,461-SIMATIC Microbox PC 427B,true
+462,462-Box PC 500,true
+465,465-SIMATIC PC Industrial light,true
+469,469-SIMATC PC Box PC,true
+470,470-SIPLUS LOGO,true
+471,471-SIPLUS generelt,true
+472,472-SIPLUS S7-200,true
+473,473-SIPLUS S7-300,true
+474,474-SIPLUS S7-400,true
+475,475-LOGO tilbehør,true
+495,495-IPC Customized Simatic PC,true
+496,496-IPC Solution for Electronic Assembl,true
+497,497-Industrial PC general,true
+498,498-Micro Automation general,true
+499,499-Electronics and More general,true
+4B1,"4B1-Bonus R762, not PQ-relevant",true
+4B2,"4B2-Bonus R764, not PQ-relevant",true
+4Z0,4Z0-not relevant for PQ and ZUE,true
+4Z1,4Z1-not relevant for PQ and ZUE,true
+4Z3,4Z3-not PQ und ZUE-relevant PC Midrange,true
+4Z4,4Z4-not PQ und ZUE-relevant PC Box PC,true
+4ZZ,4ZZ-not relevant for PQ and ZUE,true
+500,500-SIMATIC NET Network transitions,true
+501,501-SIMATIC NET Engineering Software,true
+502,502-SIMATIC HMI OPG-TECHNIK,true
+503,"503-SIMATIC HMI, OPG CE",true
+504,"504-SIMATIC HMI, TP CE",true
+506,506-SIMATIC NET IMC CPs for PC,true
+507,507-SIMATIC NET IMC Network Components?,true
+508,508-SIMATIC NET IMC Client Modules,true
+509,509-SIMATIC NET IMC Cables,true
+510,510-SIMATIC NET IMC Others,true
+511,511-SIMATIC NET IE CPs for S5,true
+512,512-SIMATIC NET IE CPs for S7-200,true
+513,513-SIMATIC NET IE CPs for S7-300,true
+514,514-SIMATIC NET IE CPs for S7-400,true
+515,515-SIMATIC NET CPS FOR S7-1200,true
+516,516-SIMATIC NET IE Softnet CPs for PC,true
+517,517-SIMATIC NET IE Hardnet CPs for PC,true
+518,518-SIMATIC NET IE ASICs,true
+519,519-SIMATIC NET IE Runtime Software,true
+520,520-SIMATIC NET IE Network Components,true
+521,521-SIMATIC NET IE ELS/ESM/OSM,true
+522,522-SIMATIC NET IE X-000,true
+523,523-SIMATIC NET IE X-100,true
+524,524-SIMATIC NET IE X-200,true
+525,525-SIMATIC NET IE X-300,true
+526,526-SIMATIC NET IE X-400,true
+527,527-SIMATIC NET IE Standard Cables,true
+528,528-SIMATIC NET IE Special Cables,true
+529,529-SIMATIC NET Cables FO,true
+530,530-SIMATIC NET IE Passive Network Component,true
+531,531-SIMATIC NET IE Others,true
+532,532-SIMATIC NET SECURITY CPs für PC,true
+533,533-SIMATIC NET SECURITY Network Components?,true
+534,534-SIMATIC NET SECURITY Runtime Software,true
+535,535-SIMATIC NET SECURITY Others???,true
+536,536-SCALANCE XB 000,true
+538,538-SIMATIC HMI PC-lite,true
+539,539-COROS LS-B TECHNIK + IW/OP,true
+540,540-SIMATIC NET PB CPs for S5,true
+541,541-SIMATIC NET PB CPs for S7-300,true
+542,542-SIMATIC NET PB CPs for S7-400,true
+543,543-SIMATIC NET Net-Components,true
+544,544-SIMATIC NET PB Softnet CPs for PC,true
+545,545-SIMATIC NET PB Hardnet CPs for PC,true
+546,546-SIMATIC NET PB Runtime Software,true
+547,547-SIMATIC NET PB ASICs,true
+548,548-SIMATIC NET PB Network Components,true
+549,549-SIMATIC NET PB OLMs,true
+550,550-SIMATIC NET PB Standard Cables,true
+551,551-SIMATIC NET PB Special Cables,true
+552,552-SIMATIC NET PB Passive Network Component,true
+553,553-SIMATIC NET PB Others,true
+554,554-SIMATIC NET ASI CPs for S5,true
+555,555-SIMATIC NET ASI CPs for S7,true
+556,556-SIMATIC NET ASI CPs for PC,true
+557,557-SIMATIC NET ASI Runtime Software,true
+558,558-SIMATIC NET ASI Network Components,true
+559,559-SIMATIC NET ASI Others,true
+560,560-SIMATIC NET Industrial Communication Dev,true
+561,561-SINAUT S5/S7,true
+563,563-SINAUT VICOS RTUs,true
+564,564-SINAUT Runtime Software,true
+565,565-SINAUT Network Components,true
+566,566-SINAUT Others,true
+570,570-FS SCE Others,true
+572,"572-RFID-system, SIMATIC RF & MOBY RFID",true
+573,"573-Sensorik - Machine sensor, kodelæser",true
+574,574-Sensorik - BERO,true
+575,575-Sensorik - BWS,true
+576,576-Sensorik - BERO inductiv,true
+580,580-Training,true
+581,581-SITOP Modular,true
+582,582-SITOP Smart,true
+583,583-LOGO! Power,true
+584,584-SITOP Compact / PSA,true
+585,585-SITOP DC USV,true
+586,586-SITOP Select,true
+587,587-SITOP kundespecefikt,true
+588,588-SITOP andre,true
+589,589-S7-300 SV,true
+590,590-S7-200 SV / S7-1200 DV,true
+591,591-SITOP end of life type,true
+592,592-SIMATIC TOP connect,true
+5A0,5A0-SIMATIC NET Hirschmann,true
+5B2,5B2-SIMATIC NET Bonus processing,true
+5B7,5B7-Sensoric - Bonus,true
+5D1,5D1-SIMATIC NET Documentation,true
+5D2,5D2-SIMATIC NET Brochurer,true
+5DK,5DK-SIMATIC NET Dokumentation,true
+5IC,5IC-SIMATIC NET PB ASIC,true
+5K1,"5K1-SIMATIC NET Standard kabel, stik",true
+5K2,"5K2-SIMATIC NET Special kabel, stik",true
+5N1,5N1-SIMATIC NET Switch Entry Level,true
+5N2,5N2-SIMATIC NET Switch Field Level,true
+5N3,5N3-SIMATIC NET Switch Control/Plant L.,true
+5P1,5P1-SIMATIC NET PLC CP Micro Controller,true
+5P2,5P2-SIMATIC NET PLC CP,true
+5P5,5P5-SIMATIC NET PC CP,true
+5R0,5R0-SIMATIC NET Zero discount product,true
+5S1,5S1-SIMATIC NET Software Runtime,true
+5S2,5S2-SIMATIC NET Software Engineering,true
+5T1,5T1-SIMATIC NET Telecontrol,true
+5TP,5TP-SIMATIC NET Trainer Package,true
+5W1,5W1-SIMATIC NET IWLAN,true
+5WP,5WP-SIMATIC NET Welcome Package,true
+5Z0,5Z0-Action package GA -0%,true
+5Z1,5Z1-Action package G-10%,true
+5Z2,5Z2-Action package G-15%,true
+5Z3,5Z3-Action package G-20%,true
+5Z4,5Z4-Action package G-25%,true
+5Z5,5Z5-Action package G-30%,true
+5Z6,5Z6-SIMATIC NET SCE Others,true
+5Z7,5Z7-SIMATIC Sensors SCE Others,true
+5ZY,5ZY-Bonus VReg R752,true
+5ZZ,5ZZ-SITOP Reservedele,true
+601,601-LV-Converter Sinamics,true
+621,621-LV-Converter Masterdrives,true
+681,681-DC-Motors,true
+691,691-DC-Drives,true
+6ZA,6ZA-not relevant for PQ,true
+6ZZ,6ZZ-not relevant for PQ,true
+701,"701-SINUMERIK, SIMODRIVE, SIMOTION, SINAMICS, Motors MC, Connection Technology",true
+711,711-SINUMERIK 840 D,true
+712,712-SINUMERIK 802D/808D/828D,true
+713,713-MT SW / Tools,true
+714,714-Panelsystemer MC,true
+715,715-MT tilbehør / andet,true
+718,718-SINUMERIK 810 D/840 D,true
+719,719-MT Product cancellation,true
+721,721-MASTERDRIVES,true
+731,731-SIMOTION,true
+732,732-Produkter for pakkemaskiner,true
+738,738-PMA  Prepare phase-out,true
+739,739-PMA  Product cancellation,true
+741,741-Produkter for kraner,true
+748,748-Cranes  Prepare phase-out,true
+749,749-Cranes  Product cancellation,true
+751,751-SINAMICS S AC/AC Blocksize,true
+752,752-SIMODRIVE,true
+753,753-SINAMICS S tilbehør,true
+754,754-SINAMICS S Campaign Boxes,true
+758,758-Prepare phase-out,true
+759,759-Product cancellation,true
+761,761-Main spindle motorer,true
+762,762-Servomotorer,true
+763,763-Lineær motorer 1FN / Torquemotorer 1FW3,true
+764,"764-Kabler, stik og tilbehør til servodrev",true
+768,768-Motors Prepare  phase-out,true
+769,769-Motors Product cancellation,true
+771,771-SINAMICS S120 AC/AC,true
+778,778-GMC Prepare phase-out,true
+779,779-GMC Product cancellation,true
+781,781-V60,true
+782,782-V80,true
+788,788-V60/80 Prepare phase-out,true
+789,789-V60/80 Product cancellation,true
+7A1,7A1-Stratetic Custumers MC MT,true
+7B1,7B1-Extraordinary Bookings A&D MC MT,true
+7B2,7B2-Extraordinary Bookings A&D MC PM,true
+7ZZ,"7ZZ-A&D MC Total Systems, Customer-Specific",true
+801,801-SIWAREX WL200,true
+802,802-Ultrasonic Flowmålere,true
+803,803-Roterende stempler målere,true
+804,804-Flowmålere mekaniske,true
+805,"805-SITRANS P, DS III sreien",true
+806,"806-SITRANS P, MK II, Z, MPS",true
+807,"807-SITRANS P, Reservedele, tilbehør",true
+808,"808-SITRANS P, 500 serien og remote seals",true
+809,"809-SITRANS P, 300 serien",true
+810,"810-SITRANS T, transmitter",true
+811,"811-Temperature Sensors, Supply Units and In",true
+812,"812-SIPART PS, Positioners",true
+813,"813-SIPART DR, Regulatorer",true
+814,"814-SIREC P, skrivere",true
+815,"815-SIWAREX U, M, FT, P,WPS, Vejeforstærkere",true
+816,"816-SIWAREX CS, CM Vejeforstærkere",true
+817,817-SIWAREX Vejeceller,true
+818,"818-HL Analyzer, Sampler a. oth. Sens.",true
+819,"819-HL - Polymetron EC, Danfoss O2",true
+820,820-Gasanalysatorer,true
+821,821-Liquid Analysers,true
+822,822-Reservedele Gasanalysatorer og Laser analysatorer,true
+823,823-Laser analysatorer,true
+824,824-Reservedele Gaskromatografer,true
+830,830-PM,true
+831,"831-SITRANS FC, Masseflowmålere excl. MC1",true
+832,832-Danfoss Flowmeters 2,true
+833,833-SITRAN FM Magnetisk Induktive flowmålere,true
+834,"834-SITRANS F US, Ultralyd flowmålere",true
+835,835-Flow Misc,true
+836,"836-SITRANS FC MC1, Masseflowmålere MC1",true
+837,837-Cello Datalogger,true
+838,"838-SITRANS F US, Ultralyd flowmålere Clamp-on",true
+839,"839-SITRANS FX, Vortex flowmålere",true
+840,840-SITRANS F US 380 serien,true
+843,843-SITRANS FM Transmag,true
+844,844-SITRANS FM MAG 8000,true
+846,846-846 Prijsgroep CP-Service,true
+847,847-847 Prijsgroep CP-Service,true
+851,"851-Niveau, Ultralyd",true
+852,"852-Niveau, Radar berøringsløs",true
+853,"853-Niveau, Kapacitiv",true
+854,854-Forstærkere til båndvægte og Proces beskyttere,true
+855,"855-Niveau, Radar guided",true
+856,"856-Niveau, Mekaniske",true
+860,860-Heavy Duty,true
+861,861-IDA,true
+862,862-IGU,true
+863,863-Couplings,true
+864,864-Service Int.,true
+865,865-Rail Car,true
+866,866-Turbo,true
+867,867-Castings,true
+868,868-Wind,true
+881,881-Wireless Modules,true
+8B0,8B0-Bonus Credit Notes by PI,true
+8H3,8H3-HL sc Controller and sc Sensors,true
+8L4,8L4-SIWAREX WL400,true
+8W1,8W1-Wireless Produkter,true
+8ZA,8ZA-Car Exhaust Analysers,true
+8ZB,8ZB-Systems and Services,true
+8ZC,8ZC-Gas Chromatographs,true
+8ZD,8ZD-Ultrasonic,true
+8ZE,8ZE-Car Exhaust Testers and Quantra Spare Parts,true
+8ZF,8ZF-Point Level,true
+8ZG,8ZG-Dynamic Weighing Instruments,true
+8ZH,8ZH-Danfoss Flowmeters,true
+8ZK,"8ZK-Third Party Products, Electric actuater",true
+8ZL,8ZL-Analog and digital indicators,true
+8ZM,8ZM-PI 5 internal SHO,true
+8ZZ,8ZZ-not relevant for PQ,true
+B01,B01-B01,true
+B02,B02-B02,true
+B03,B03-B03,true
+B04,B04-Monitor/TV,true
+BA2,BA2-HCS AHS Alternative Heating System,true
+BA3,BA3-HCS FSB Heating System,true
+BA4,BA4-HCS GAB - Zug Heating System,true
+BA5,BA5-HCS GAB Konecny,true
+BA6,BA6-HCS FDB RES Burner,true
+BA7,BA7-HCS DDB COM/IND Burner,true
+BA8,BA8-HCS GAB Rastatt Heating System,true
+BA9,BA9-HCS Miscellaneous,true
+BB1,BB1-ECA Synergy Controls,true
+BB3,BB3-ECA Water meters,true
+BB4,BB4-ECA Heat meters,true
+BB5,BB5-ECA HCA Devices & Systems,true
+BB9,BB9-ECA Miscellaneous,true
+BC1,BC1-V&A Large Stroke,true
+BC2,BC2-V&A Magnetic,true
+BC3,BC3-V&A Short Stroke,true
+BC4,BC4-V&A Terminal Equipment,true
+BC5,BC5-V&A Radiator,true
+BC6,BC6-V&A Rotary,true
+BC7,BC7-V&A Refrigerant,true
+BC9,BC9-V&A Miscellaneous V&A,true
+BD1,BD1-Damper Actuators,true
+BD2,BD2-Damper Actuators,true
+BD9,BD9-Damper Miscellaneous,true
+BE1,BE1-Senors Primary Standalone,true
+BE2,BE2-Sensors Primary Communicative,true
+BE3,BE3-Sensors Secondary Standalone,true
+BE4,BE4-Sensors Secondary Communicative,true
+BE9,BE9-Sensors Miscellaneous,true
+BF1,BF1-RSY Primary Standalone,true
+BF2,BF2-RSY Primary Communicative,true
+BF5,BF5-RSY Roomunits,true
+BF7,BF7-RSY Resid. Systems,true
+BF8,BF8-RSY Vertical Market Solutions,true
+BF9,BF9-RSY Miscellaneous,true
+BG1,BG1-Sigmagyr Standalone,true
+BG2,BG2-Sigmagyr Communcating,true
+BG3,BG3-Room Controls Standalone,true
+BG4,BG4-RAU Secondary Communicative,true
+BG5,BG5-RAU Roomunits,true
+BG6,BG6-SYNCO Standalone,true
+BG7,BG7-SYNCO Communicating,true
+BG8,BG8-Standard Systems,true
+BG9,BG9-RAU Miscellaneous,true
+BH1,BH1-PNE Primary Standalone,true
+BH3,BH3-PNE Secondary Standalone,true
+BH6,BH6-PNE Actuators,true
+BH9,BH9-PNE Miscellaneous,true
+BK1,BK1-RUC Primary Standalone,true
+BK3,BK3-RUC Secondary Standalone,true
+BK4,BK4-RUC Secondary Communicative,true
+BK5,BK5-RUC Roomunits,true
+BK7,BK7-RUC Solution Bundles,true
+BK9,BK9-RUC Miscellaneous,true
+BM1,BM1-OEM ACR Saphir,true
+BM2,BM2-OEM ACR Climatix,true
+BM4,BM4-OEM ACR AC2 old,true
+BM5,BM5-OEM ACR Poly Superheat,true
+BM8,BM8-OEM ACR ACRD Variants Other,true
+BM9,BM9-OEM ACR Miscellaneous,true
+BN2,BN2-Speed Drives IP20,true
+BN3,BN3-Speed Drives BN3,true
+BN5,BN5-Speed Drives IP54,true
+BN6,BN6-Speed Drives BN6,true
+BN7,BN7-Speed Drives BN7,true
+BN9,BN9-Speed Drives Miscellaneous,true
+BO1,BO1-RAU Standard Room Controls,true
+BO2,BO2-RAU Free Programmable TEC,true
+BO3,BO3-RAU Room Solution Bundles,true
+BO9,BO9-RAU Miscellaneous,true
+BP1,BP1-PTM IO Modules,true
+BP2,BP2-Pulse Counting Modules,true
+BP4,BP4-NK IO Modules,true
+BP5,BP5-Desigo IO Modules,true
+BP6,BP6-TX IO Modules,true
+BP9,BP9-Miscellaneous IO Modules,true
+BQ1,BQ1-Talon,true
+BQ4,BQ4-Talon Software,true
+BQ6,BQ6-Legacy Staefa,true
+BQ7,BQ7-Talon Literature,true
+BQ8,BQ8-Talon 3rd Party Integration,true
+BR1,BR1-Apogee,true
+BR3,BR3-Apogee Management Level,true
+BR5,BR5-Apogee Miscellaneous,true
+BR6,BR6-Apogee 3rd Party Integration,true
+BS1,BS1-Desigo Controllers,true
+BS3,BS3-Desigo Management Level,true
+BS4,BS4-Desigo Integration Solution,true
+BS5,BS5-Desigo S7,true
+BS7,BS7-Desigo Tools,true
+BS8,BS8-Desigo New System,true
+BS9,BS9-Desigo Miscellaneous,true
+BT1,BT1-Sicilmatx,true
+BT9,BT9-Siclimat Miscellaneous,true
+BTC,BTC-Behind the ear Conventioneel,true
+BTD,BTD-Behind the ear Digitaal,true
+BTP,BTP-Behind the ear Programmeerbaar,true
+BU1,BU1-Visonik,true
+BU2,BU2-Unigyr,true
+BU3,BU3-Integral,true
+BU4,BU4-Interface Desigo,true
+BU8,BU8-System 600,true
+BZ6,BZ6-Dokumentation,true
+C01,C01-BT RUIMTE THERMOSTATEN,true
+C02,C02-BT KLOK THERMOSTATEN,true
+C03,C03-BT SYNCO LIVING,true
+C04,C04-BT Vrij,true
+C05,C05-BT VILLAGYR,true
+C06,C06-BT SIGMAGYR,true
+C07,C07-BT Vrij,true
+C08,C08-BT Vrij,true
+C09,C09-BT Vrij,true
+C10,C10-BT SYNCO 100,true
+C11,C11-BT SYNCO 200,true
+C12,C12-BT SYNCO 700,true
+C13,C13-BT SYNCO UITBR.MODUUL,true
+C14,C14-BT RUIMTE REGELAARS,true
+C15,C15-BT Vrij,true
+C16,C16-BT Vrij,true
+C17,C17-BT Vrij,true
+C18,C18-BT Vrij,true
+C19,C19-BT Vrij,true
+C20,C20-BT SYNCO RXB,true
+C21,C21-BT DESIGO RXC,true
+C22,C22-BT DESIGO/SYNCO RXL,true
+C23,C23-BT Vrij,true
+C24,C24-BT Vrij,true
+C25,C25-BT Vrij,true
+C26,C26-BT Vrij,true
+C27,C27-BT Vrij,true
+C28,C28-BT Vrij,true
+C29,C29-BT Vrij,true
+C30,C30-BT VISONIK BPS,true
+C31,C31-BT UNYGYR PRU,true
+C32,C32-BT INTERGRAL RS,true
+C33,C33-BT DESIGO PX,true
+C34,C34-BT DESIGO INSIGHT,true
+C35,C35-BT Vrij,true
+C36,C36-BT Vrij,true
+C37,C37-BT Vrij,true
+C38,C38-BT Vrij,true
+C39,C39-BT Vrij,true
+C40,C40-BT THERMOSTATEN,true
+C41,C41-BT SYMARO,true
+C42,C42-BT Vrij,true
+C43,C43-BT Vrij,true
+C44,C44-BT Vrij,true
+C45,C45-BT NETTO,true
+C46,C46-BT Vrij,true
+C47,C47-BT Vrij,true
+C48,C48-BT Vrij,true
+C49,C49-BT Vrij,true
+C50,C50-BT CO-CV/AC INSTALLATIE,true
+C51,C51-BT CO-RUIMTE- EN ZONE,true
+C52,C52-BT CO-KOELMIDDELEN,true
+C53,C53-BT ACVATIX SERVOMOTOREN,true
+C54,C54-BT Vrij,true
+C55,C55-BT Vrij,true
+C56,C56-BT UNIVERSELE REGELAAR,true
+C57,C57-BT WARMTEPOMPEN,true
+C58,C58-BT SED2,true
+C59,C59-BT Vrij,true
+C60,C60-BT E-LUCHTKLEPAANDRIJVING,true
+C61,C61-BT Vrij,true
+C62,C62-BT OMVORMERS E.D.,true
+C63,C63-BT Vrij,true
+C64,C64-BT STANDAARD PROCESSEN,true
+C65,C65-BT Vrij,true
+C66,C66-BT SAPHIR,true
+C67,C67-BT POLYCOOL,true
+C68,C68-BT CLIMATIX,true
+C69,C69-BT Vrij,true
+C70,C70-BT BRANDERAUTOMATEN,true
+C71,C71-BT VLAMOPNEMERS,true
+C72,C72-BT GASVENTIELEN,true
+C73,C73-BT GASSERVOMOTOREN,true
+C74,C74-BT SERVOMOTOREN,true
+C75,C75-BT DRUKSCHAKELAARS,true
+C77,C77-BT SOLUTIONS COMF,true
+C99,C99-BT 3RD PARTY PROD COMF,true
+CRA,CRA-,true
+CSA,CSA-,true
+CTA,CTA-,true
+CUA,CUA-,true
+CV1,CV1-Varishunt,true
+CV2,CV2-Rökdetektorer,true
+CV3,CV3-Övrigt,true
+DAA,DAA-Aluminium motorer,true
+DAB,"DAB-Normmotor aluminium 18,5-45 KW",true
+DAC,DAC-Diverse Accessoires,true
+DAD,"DAD-Energisparemotor aluminium, 0,06-37 KW",true
+DAE,DAE-Støbejerns motorer,true
+DAF,"DAF-Normmotor støbejern, 18,5-200 KW",true
+DAG,"DAG-Energisparemotor støbejern, 18,5-200 KW",true
+DAH,"DAH-EX-motor, EEx ell, aluminium, 0,12-16 KW",true
+DAI,"DAI-EX-motor, EEx e ll, støbejern, 2-165 KW",true
+DAJ,"DAJ-Micromaster 4,drosler, filtre 90-250 KW",true
+DAK,DAK-SIRIUS 3R kontaktorer og hjælperelæer,true
+DAL,DAL-SIRIUS 3R tilbehør,true
+DAM,DAM-SIRIUS 3R Effektafbrydere,true
+DAN,DAN-SIRIUS 3R Termiske overbelastningsrelæer,true
+DAO,DAO-SIRIUS 3R elektroniske overbelastningsrelæer,true
+DAP,DAP-SIRIUS 3R Sikringsløse motorstartere S0-S3,true
+DAQ,"DAQ-Kontaktorer, hjælperelæer, koblingsrelæer, kontaktor kombinationer, DC kontaktor",true
+DAR,DAR-Termorelæer,true
+DAS,"DAS-Termistorrelæer, Interface moduler",true
+DAT,"DAT-Tidsrelæer, interface konverter, temperaturovervågningsrelæer",true
+DAU,"DAU-SIRIUS halvlederkontaktorer og -relæer, funktionsmoduler & overvågningsrelæer",true
+DAV,DAV-Drejeafbrydere,true
+DAW,DAW-8US Samleskinneadapter,true
+DAX,DAX-Sikringslastadskillere,true
+DAY,DAY-Strømtrafo,true
+DAZ,DAZ-SIRIUS endestop,true
+DBA,DBA-SIRIUS trykknapper & signallamper,true
+DBB,DBB-Lystårne,true
+DBC,DBC-Sikkerhedsrelæer,true
+DBD,DBD-Sikringslastadskillere,true
+DBE,DBE-Software maksimalafbrydere Switch ES,true
+DBF,DBF-PCB circuit-breakers  and accessori,true
+DBG,DBG-SENTRON VL,true
+DBH,"DBH-SENTRON WL, luftbrydere",true
+DBI,DBI-Transformers op til 16 kVA,true
+DBJ,DBJ-Transformer tilbehør,true
+DBK,DBK-Transformers over 16 kVA,true
+DBL,DBL-Strømforsyninger,true
+DBM,"DBM-Variabel transformere, spændingsregulator",true
+DBN,"DBN-Tilbehør for Bero 3RX1, 3RX7, 3SX6, 6KX5",true
+DBO,"DBO-OPTO-Bero 3RG70,-71,-72,-73,-74,-75,-76",true
+DBP,"DBP-Induktiv/kapacitiv-Bero 3RG16, 3RG4",true
+DBQ,"DBQ-SONAR-Bero & tilbe. 3RG6,3SG16,3RX2,3RX4",true
+DBR,DBR-Lastafbrydere,true
+DBS,DBS-SIKOSTART softstartere 3RW22,true
+DBT,DBT-SIRIUS Softstartere,true
+DBU,"DBU-SITOR halvledersikringer 3NC,3NE",true
+DBV,DBV-SITOR halvledersikringer 3NE1,true
+DBW,DBW-SIMOCODE,true
+DBX,"DBX-AS-interface moduler, ASI-Mstarter, ASI tilbehør, ASI power, IO-Link moduler",true
+DBY,DBY-ET200 motorstartere,true
+DBZ,"DBZ-Komplette betjeningssystemer 3SB4, 3SF4",true
+DC1,DC1-,true
+DCA,"DCA-Optiske sikkerhed 3RG78, 3SF784, 3DSF783",true
+DCB,"DCB-Net, kommuteringsdrosler og filtre",true
+DCC,"DCC-Ventilat. 2CF4,6,2CK3,5, 2CT1,2,2CQ4,5,6",true
+DCD,"DCD-Kanalskinner CD-L, CD-R",true
+DCE,"DCE-Kanalskinner BD01, BD02",true
+DCF,DCF-SIPLUS ADDON,true
+DCG,DCG-SIPLUS S7-200,true
+DCH,DCH-SIPLUS S7-300,true
+DCI,DCI-SIPLUS S7-400,true
+DCJ,"DCJ-Flowmåling, Magnetisk Induktiv",true
+DCK,"DCK-Flowmåling, Coriolis Masseflow",true
+DCL,"DCL-Flowmåling, Ultralyd",true
+DCM,"DCM-Flowmåling, Ringstempel",true
+DCN,"DCN-Flowmåling, Rotameter, Orifice og Flap",true
+DCO,"DCO-Flowmålere, tilbehør",true
+DCP,DCP-Temperaturtransmittere,true
+DCQ,"DCQ-Trykmåling, Low Cost og Temperaturfølere",true
+DCR,"DCR-Tryk,Absolut,Relativ,Differens, tilbehør",true
+DCS,"DCS-Niveaumåling, Ultralyd",true
+DCT,"DCT-Niveaumåling, Radar",true
+DCU,"DCU-Niveau, Kapacitiv. Niveauswitch, Ultalyd",true
+DCV,"DCV-Vejeudstyr,Signalomsættere og Vejeceller",true
+DCW,DCW-Dynamisk vejeudstyr,true
+DCX,DCX-Proces beskyttere,true
+DCY,"DCY-Regulatorer, Sipart DR",true
+DCZ,"DCZ-Skrivere, Sirec L/P/DS/Variograph",true
+DDA,"DDA-Positioners, Sipart PS/PS2",true
+DDB,"DDB-El aktuatorer, Sipos",true
+DDC,DDC-SIPROM Software,true
+DDD,"DDD-Væskeanalyse pH,Opløst ilt, Type Sipan",true
+DDE,DDE-Gasanal. Ultramat/Oxymat/Fidamat/Calomat,true
+DDF,"DDF-Gaskromatografi, Type Maxum",true
+DDG,DDG-Strømforsyninger LOGO! Power,true
+DDH,"DDH-MicroMaster 420, 0,12-4 KW, IP20, type 6",true
+DDI,"DDI-MicroMaster 420, 5,5-11 KW, IP20, type 6",true
+DDJ,"DDJ-MicroMaster 440, 0,12-4 KW, IP20, 6SE644",true
+DDK,"DDK-MicroMaster 440, 5,5-75 KW, IP20, 6SE644",true
+DDL,DDL-Reserved A&D Denmark 6,true
+DDM,DDM-Reserved A&D Denmark 7,true
+DDN,DDN-Reserved A&D Denmark 8,true
+DDO,DDO-Reserved A&D Denmark 9,true
+DDP,DDP-Reserved A&D Denmark 10,true
+DDQ,DDQ-Reserved A&D Denmark 11,true
+DDR,DDR-Reserved A&D Denmark 12,true
+DDS,DDS-Reserved A&D Denmark 13,true
+DDT,DDT-Reserved A&D Denmark 14,true
+DDU,DDU-Stikbensrelæer,true
+DDV,DDV-Vision - Acuity,true
+DDW,DDW-Vision - NERLITE,true
+DDX,DDX-ARPEX Stålkobling,true
+DDY,DDY-ELPEX Højelastisk kobling,true
+DDZ,DDZ-N-Eupex elastisk kobling,true
+DEA,DEA-FLUDEX Hydraulisk kobling,true
+DEB,DEB-RUPEX Elastisk kobling,true
+DEC,DEC-,true
+DED,DED-RZAPEX Tandkobling,true
+DEE,DEE-BIPEX Elastisk klo kobling,true
+DEF,DEF-IQ-Sense,true
+DEG,DEG-SENTRON PAC,true
+DEH,DEH-Reserved A&D Denmark 27,true
+DEI,DEI-Reserved A&D Denmark 28,true
+DEJ,DEJ-Reserved A&D Denmark 29,true
+DEK,DEK-Reserved A&D Denmark 30,true
+DEL,DEL-Drosler for omformere,true
+DEM,DEM-FM - CONTROLLER,true
+DEN,DEN-SIRIUS 3RA6 Compact startere,true
+DEO,DEO-N-Compact motor,true
+DEP,DEP-Modular Safety System,true
+DEQ,"DEQ-AS-i CP, master & link",true
+DER,DER-PX-I & C - kapacitiv / induktiv specielle typer,true
+DES,DES-ASIsafe,true
+DET,DET-Sikringslastadskillere,true
+DEU,DEU-SIRIUS MotorStartere MCU,true
+DEV,DEV-Reserved A&D Denmark 41,true
+DEW,DEW-Reserved A&D Denmark 42,true
+DEX,DEX-Reserved A&D Denmark 43,true
+DEY,DEY-Reserved A&D Denmark 44,true
+DEZ,DEZ-Reserved A&D Denmark 45,true
+DFA,DFA-Reserved A&D Denmark 46,true
+DFB,DFB-Reserved A&D Denmark 47,true
+DFC,DFC-Reserved A&D Denmark 48,true
+DFD,DFD-Reserved A&D Denmark 49,true
+DFE,DFE-Reserved A&D Denmark 50,true
+DFF,DFF-Reserved A&D Denmark 51,true
+DFG,DFG-Reserved A&D Denmark 52,true
+DFH,DFH-Reserved A&D Denmark 53,true
+DFI,DFI-Reserved A&D Denmark 54,true
+DFJ,DFJ-Reserved A&D Denmark 55,true
+DFK,DFK-Reserved A&D Denmark 56,true
+DFL,DFL-Reserved A&D Denmark 57,true
+DFM,DFM-Reserved A&D Denmark 58,true
+DFN,DFN-Reserved A&D Denmark 59,true
+DFO,DFO-Reserved A&D Denmark 60,true
+DFP,DFP-Reserved A&D Denmark 61,true
+DFQ,DFQ-Reserved A&D Denmark 62,true
+DFR,DFR-Reserved A&D Denmark 63,true
+DFS,DFS-Reserved A&D Denmark 64,true
+DFT,DFT-Reserved A&D Denmark 65,true
+DFU,DFU-Reserved A&D Denmark 66,true
+DFV,DFV-Reserved A&D Denmark 67,true
+DFW,DFW-Reserved A&D Denmark 68,true
+DFX,DFX-Reserved A&D Denmark 69,true
+DFY,DFY-Reserved A&D Denmark 70,true
+DFZ,DFZ-Reserved A&D Denmark 71,true
+DGA,DGA-Reserved A&D Denmark 72,true
+DGB,DGB-Reserved A&D Denmark 73,true
+DGC,DGC-Reserved A&D Denmark 74,true
+DGD,DGD-Reserved A&D Denmark 75,true
+DGE,DGE-Reserved A&D Denmark 76,true
+DGF,DGF-Reserved A&D Denmark 77,true
+DGG,DGG-Reserved A&D Denmark 78,true
+DGH,DGH-Reserved A&D Denmark 79,true
+DGI,DGI-Reserved A&D Denmark 80,true
+DGJ,DGJ-Reserved A&D Denmark 81,true
+DGK,DGK-Reserved A&D Denmark 82,true
+DGL,DGL-Reserved A&D Denmark 83,true
+DGM,DGM-Reserved A&D Denmark 84,true
+DGN,DGN-Reserved A&D Denmark 85,true
+DGO,DGO-Reserved A&D Denmark 86,true
+DGP,DGP-Reserved A&D Denmark 87,true
+DGQ,DGQ-Reserved A&D Denmark 88,true
+DGR,DGR-Reserved A&D Denmark 89,true
+DGS,DGS-Reserved A&D Denmark 90,true
+DGT,DGT-Reserved A&D Denmark 91,true
+DGU,DGU-Reserved A&D Denmark 92,true
+DGV,DGV-Reserved A&D Denmark 93,true
+DGW,DGW-Reserved A&D Denmark 94,true
+DGX,DGX-Reserved A&D Denmark 95,true
+DGY,DGY-Reserved A&D Denmark 96,true
+DGZ,DGZ-Reserved A&D Denmark 97,true
+DH1,DH1-,true
+DHA,DHA-DK-SBT Access,true
+DHB,DHB-DK-SBT CCTV,true
+DHC,DHC-DK-SBT IP,true
+DM1,DM1-,true
+DRY,DRY-Drystar film MED,true
+DT4,DT4-,true
+DT8,DT8-,true
+E01,E01-,true
+E02,E02-,true
+E03,E03-,true
+E04,E04-,true
+E05,E05-,true
+E06,E06-,true
+E07,E07-,true
+E08,E08-,true
+E09,E09-,true
+E10,E10-,true
+E11,E11-,true
+E12,E12-,true
+E13,E13-,true
+E14,E14-,true
+E15,E15-,true
+E17,E17-,true
+E18,E18-,true
+E19,E19-,true
+E20,E20-,true
+E21,E21-,true
+E22,E22-,true
+E23,E23-,true
+E24,E24-,true
+E25,E25-,true
+E26,E26-,true
+E27,E27-,true
+E28,E28-,true
+E29,E29-,true
+E30,E30-,true
+E40,E40-,true
+E41,E41-,true
+E42,E42-,true
+E43,E43-,true
+E44,E44-,true
+E45,E45-,true
+E46,E46-,true
+EAC,EAC-ECG Accessoires,true
+EPA,EPA-ECG Papier,true
+EPO,EPO-SAT EPO,true
+ESP,ESP-ECG Spare parts,true
+F01,F01-SIRIUS  3R,true
+F02,F02-SIRIUS Net AS-Interface moduulit 3RK11/,true
+F03,F03-SITOR,true
+F04,F04-SIMOCODE 3UF,true
+F05,F05-Optinen turvatekniikka 3RG78 ja  Lasersk,true
+F06,"F06-Kap. tunnistimet 3RG16, Induk. NAMUR-tun",true
+F07,F07-SENTRON  3VL,true
+F08,"F08-Ohj.muunt. <16kVA, 4AM, 4AT, 4AP, 4AL",true
+F09,F09-Tasavirtalähteet 4AV2 - 3,true
+F10,F10-Power,true
+F11,F11-SINMOVERT,true
+F12,F12-DC Motors,true
+F13,F13-Modulpack,true
+F14,F14-Motors,true
+F15,F15-SIMOVERT,true
+F16,F16-SIMOVERT,true
+F17,F17-Motors,true
+F18,F18-Motors,true
+F19,F19-Motors,true
+F20,F20-Motors,true
+F21,F21-H-COMPACT,true
+F22,F22-SENTRON VL1-9 MCCB,true
+F23,F23-SENTRON 3WL1 IEC ACBi,true
+F24,F24-Control switches 3LD,true
+F25,F25-ELMO F uusi,true
+F26,F26-ELMO L,true
+F27,F27-ELMO L uusi,true
+F28,F28-8US kiskoadapterit,true
+F29,F29-Sifius Safety Modular MSS,true
+F30,F30-LOHER TM,true
+F31,F31-LOHER IM,true
+F32,F32-KOMPAKTIKATKAISIJAT 3VT,true
+F33,F33-Sähkömoott. Alumiini 1LA7/1LE1 varastom.,true
+F34,F34-Sähkömoott. Valurauta 1LG4 varastomallit,true
+F35,F35-Sähkömoott. Alumiini 1LA7 / 1LE1,true
+F36,F36-Sähkömoott. Valurauta 1LG4,true
+F37,F37-Sähkömoott. Alumiini 1LA5,true
+F38,F38-Sähkömoott. Valurauta 1LA6,true
+F39,F39-Sähkömoott. Alumiini 1LA9,true
+F3A,F3A-Accessories for Motors,true
+F40,F40-Sähkömoott. Valurauta 1LG6,true
+F41,F41-SIMATIC NET ASi,true
+F42,F42-Axial-/Radial-flow fans,true
+F43,F43-Modification Kits,true
+F44,F44-Pienet S5 log ST52.1,true
+F45,F45-S7-200                    ST72,true
+F46,F46-S7-300                    ST73,true
+F47,F47-SITOP -POWER           KT10-P,true
+F48,F48-S5-115U                 ST52.3,true
+F49,F49-MOBY,true
+F50,F50-S7-400                    ST74,true
+F51,F51-M7                          ST77,true
+F52,F52-SITOP-CONNECTION  KT-CA1,true
+F53,F53-MOBY,true
+F54,F54-Vanhat tuotteet        ST9,true
+F55,F55-S5-135U / 155U     ST54,true
+F56,F56-PCS 7                    STPCS7,true
+F57,F57-Koulutus / PT 5,true
+F58,F58-Muut AS tuotteet  palvelut / tekn.tuki,true
+F59,F59-TI                           ST44/45,true
+F60,F60-PAS ratkaisut,true
+F61,F61-PAS ratkaisut elintarviketeollisuus,true
+F62,F62-HMI / PT 1  SCADA           ST80.2,true
+F63,F63-HMI / PT 1 Paneelitekn.     ST80.1,true
+F64,F64-Muut HMI / PT 1 tuott.      ST80,true
+F65,F65-Paneeli PC IL,true
+F66,F66-LDC näytöt,true
+F67,F67-Mis Light,true
+F68,F68-NET / PT 2  IKxx,true
+F69,F69-NET IE. CPs FOR S7,true
+F70,F70-NET IE FOR PC,true
+F71,F71-NET IE SW AND DOC.,true
+F72,F72-NET IE NETWORK COMPONENTS,true
+F73,F73-NET PROFIBUS CPs FOR PC,true
+F74,F74-NET PB NETWORK COMPONENTS,true
+F75,F75-NET CABLES,true
+F76,"F76-NET, COMM.DEVICES",true
+F77,F77-NET ASi CPs FOR S7,true
+F78,F78-LOGO                    STLOGO,true
+F79,F79-DP hajautus           ST76,true
+F80,F80-C7                          ST75,true
+F81,F81-SICOMP,true
+F82,F82-PG / SW                ST79,true
+F83,F83-Soft PLC               STWINAC,true
+F84,F84-IPC IL40,true
+F85,F85-MASCHINE VISION    ST74,true
+F86,F86-LOGO!  EIB/KNX,true
+F87,"F87-FAIL-SAFE SYSTEMS S7,DP",true
+F88,F88-840D,true
+F89,F89-840C,true
+F90,F90-Servomotors,true
+F91,F91-DC Motors,true
+F92,F92-611 A/D,true
+F93,F93-POSMO,true
+F94,F94-Spindle Motors,true
+F95,F95-1FN3,true
+F96,F96-1FE1,true
+F97,F97-WKC,true
+F98,F98-CAVENAGO,true
+F99,F99-Accessories,true
+FA1,FA1-Flowmeter,true
+FA2,FA2-Testers,true
+FA3,FA3-Testers,true
+FA4,FA4-Testers,true
+FA5,FA5-Testers,true
+FA6,FA6-Ultrasonic,true
+FA7,FA7-Ultrasonic,true
+FA8,FA8-Ultrasonic,true
+FA9,FA9-Piirturit,true
+FAA,FAA-ARPEX COUPLINGS,true
+FAB,FAB-BIPEX COUPLINGS,true
+FAC,FAC-FLUDEX COUPLINGS,true
+FAD,FAD-N-EUPEX COUPLINGS,true
+FAE,FAE-RUPEX COUPLINGS,true
+FAF,FAF-ZAPEX COUPLINGS,true
+FAM,FAM-OEM ACR Controls (H5AM),true
+FAV,FAV-Locally sourced ACR (H5AV),true
+FB0,FB0-Contract discount,true
+FB1,FB1-Teleperm,true
+FB2,FB2-Teleperm,true
+FB3,FB3-Teleperm,true
+FB4,FB4-Teleperm,true
+FB5,FB5-Teleperm,true
+FB6,FB6-Teleperm,true
+FB7,FB7-Teleperm,true
+FB8,FB8-Microwave,true
+FB9,FB9-Microwave,true
+FBA,FBA-OEM Boiler & Burner Equipment (H5BA),true
+FC1,FC1-Pinnanmittaus,true
+FC2,FC2-Levels,true
+FC3,FC3-Protection,true
+FC4,FC4-Protection,true
+FC5,FC5-Packaging maschines,true
+FC6,FC6-Simotion P,true
+FC7,FC7-Simotion C,true
+FC8,FC8-SINAMICS Chassis Units to Framesize G,true
+FC9,FC9-LOGO Power,true
+FCC,FCC-Valves & Actuators (H5CC),true
+FCD,FCD-Dampers Actuators (H5CD),true
+FCE,FCE-Sensors (H5CE),true
+FCN,FCN-Variable Speed Drives (H5CN),true
+FCV,FCV-Locally sourced Field Devices (H5CV),true
+FCZ,FCZ-Miscellaneous HVP (H5CZ),true
+FD1,FD1-Product Group FD1,true
+FDB,FDB-Energy Cost Allocation (H5DB),true
+FDE,FDE-Sensors (H5DE),true
+FDF,FDF-Standard Control Devices (H5DF),true
+FDG,FDG-Room Automation (H5DG),true
+FDK,FDK-Residential & Universal Controls (H5DK),true
+FEO,FEO-Synco controls,true
+FEP,FEP-I/O Modules (H5EP),true
+FES,FES-Desigo (H5ES),true
+FEU,FEU-Legacy Systems (H5EU),true
+FEV,FEV-Locally sourced Automation SYS (H5EV),true
+FF1,FF1-Fire Detection  (H3F1),true
+FFD,FFD-Detectors and Peripherals (H3FD),true
+FFP,FFP-Panels (H3FP),true
+FFQ,FFQ-Danger Management Systems (H3FQ),true
+FFR,FFR-Revision (Products) - MAV (H3FR),true
+FFX,FFX-Locally sourced Fire Detection (H3FX),true
+FGA,FGA-Heat Control Systems (H5GA),true
+FGM,FGM-ACR Controls (H5GM),true
+FGV,FGV-Locally sourced OEM products (H5GV),true
+FPC,FPC-Chemical Agents (H3PC),true
+FPN,FPN-Natural Agents (H3PN),true
+FPX,FPX-3rd Party Extinguising (H3PX),true
+FS1,FS1-SES New Systems & Solutions (H1S1),true
+FSA,FSA-Access Control HQ Products (H3SA),true
+FSI,FSI-Intrusion HQ Products (H3SI),true
+FSV,FSV-CCTV HQ Products (H3SV),true
+FSX,FSX-Locally sourced Access Control (H3SX),true
+FSY,FSY-Locally sourced CCTV (H3SY),true
+G01,G01-Gaggenau Wasautomaten,true
+G02,G02-Gaggenau Droogautomaten,true
+G03,G03-Gaggenau Koelapparatuur,true
+G04,G04-Gaggenau Vriesapparatuur,true
+G05,G05-Gaggenau Fornuizen,true
+G06,G06-Gaggenau Magnetrons,true
+G07,G07-Gaggenau Afwas-automaten,true
+G08,G08-Gaggenau Kookplaten,true
+G09,G09-Gaggenau Afzuigkappen,true
+G11,G11-KHH Koffie-/Espressoapparatuur,true
+G20,G20-Gaggenau Extra toebehoren,true
+G21,G21-Gaggenau Toebehoren,true
+GSM,GSM-GSM,true
+H01,H01-Schulthess Wasautomaten,true
+H02,H02-Schulthess Droogautomaten,true
+H20,H20-Schulthess Extra toebeh. was-/droog-/afw,true
+H21,H21-BT Branderautomaten,true
+H22,H22-BT Thermostaten,true
+H23,H23-BT Gasventielen,true
+H24,H24-BT SQN/SQM,true
+H25,H25-BT Regelapparatuur,true
+H26,H26-BT Regelapparatuur oud,true
+H27,H27-BT Ventielen => DN65,true
+H28,H28-BT Netto 1,true
+H29,H29-BT Netto 2,true
+H30,H30-DDC-apparatuur,true
+H31,H31-BT REV/RAV,true
+H32,H32-BT RVP,true
+H33,H33-BT RAA,true
+H34,H34-BT RVL,true
+H35,H35-BT RWI,true
+H36,H36-BT Sintony,true
+H37,H37-BT Brand,true
+H38,H38-BT Inbraak,true
+H39,H39-BT CCTV,true
+H40,H40-BT Access,true
+H41,H41-REV-XA,true
+H42,H42-BT Bewator Granta,true
+H43,H43-BT OPA,true
+H44,H44-BT SYNCO,true
+H45,H45-BT Sinteso,true
+H46,H46-BT Climatrix,true
+H47,H47-BT vrij,true
+H48,H48-BT vrij,true
+H49,H49-BT vrij,true
+H50,H50-BT SYNOVA,true
+H51,H51-BT ALGOREX SOLUTIONS,true
+H52,H52-BT SIGMASYS,true
+H53,H53-BT SINTESO CENTR.,true
+H54,H54-BT SINTESO MELDERS,true
+H55,H55-BT SINTESO E100 ONTR.,true
+H56,H56-BT CERBERUS CENTR.,true
+H57,H57-BT CERBERUS MELDERS,true
+H58,H58-BT ALGOREX MULTICHANNEL,true
+H59,H59-BT VRIJ,true
+H60,H60-BT VRIJ,true
+H61,H61-BT M-CHANNEL CENTR.,true
+H62,H62-BT M-CHANNEL  PERIFERIE,true
+H63,H63-BT VRIJ,true
+H64,H64-BT VRIJ,true
+H65,H65-BT Repair FS,true
+H66,H66-BT GASBLUSSING,true
+H67,H67-BT FIBROLASER,true
+H68,H68-BT ASD,true
+H69,H69-BT DANGER MAN. SYST.,true
+H70,H70-BT SINTONY-60,true
+H71,H71-BT SINTONY-120/220/410,true
+H72,H72-BT SPC,true
+H73,H73-BT DETECTOREN,true
+H74,H74-BT SINTONY-61,true
+H75,H75-BT VRIJ,true
+H76,H76-BT VRIJ,true
+H77,H77-BT SOLUTIONS FS/SES,true
+H78,H78-BT VRIJ,true
+H79,H79-BT VRIJ,true
+H80,H80-BT SISTORE AX,true
+H81,H81-BT SISTORE MX,true
+H82,H82-BT SISTORE CX,true
+H83,H83-BT CAMERA'S/OVERIGE,true
+H84,H84-BT NICE,true
+H85,H85-BT EXPLOSIEVEILIGE BEHUIZINGEN,true
+H86,H86-BT ANALYSE SOFTWARE IVM,true
+H87,H87-BT SITEIQ,true
+H88,H88-BT ELPAS/SPIDER,true
+H89,H89-BT BAGAGESCANNERS/-POORTEN,true
+H90,H90-BT CODOOR,true
+H91,H91-BT SIPASS ENTRO,true
+H92,H92-BT SIPASS INTEGRATED,true
+H93,H93-BT GRANTA,true
+H94,H94-BT SIPORT,true
+H95,H95-BT SOFTWARE HOUSE,true
+H96,H96-BT SIPASS ENTRO,true
+H97,H97-BT 3RD PARTY PROD FSP,true
+H98,H98-BT 3RD PARTY PROD FS,true
+H99,H99-BT 3RD PARTY PROD SES,true
+HIC,HIC-,true
+I01,I01-Inbouw Wasautomaten,true
+I02,I02-Inbouw Droogautomaten,true
+I03,I03-Inbouw Koelapparatuur,true
+I04,I04-Inbouw Vriesapparatuur,true
+I05,I05-Inbouw Fornuizen,true
+I06,I06-Inbouw Magnetrons,true
+I07,I07-Inbouw Afwas-automaten,true
+I08,I08-Inbouw Kookplaten,true
+I09,I09-Inbouw Afzuigkappen,true
+I11,I11-Inbouw Klein Huishoudelijk,true
+I12,I12-Inbouw Klein Huishoudelijk ex. verwijder,true
+I13,I13-Inbouw Keukenradio's,true
+I14,I14-CD Ireland 4,true
+I15,I15-CD Ireland 5,true
+I16,I16-CD Ireland 6,true
+I20,I20-Inbouw Extra toebehoren,true
+I21,I21-Inbouw Kookplaten zonder verwijderingsbi,true
+I2A,I2A-Siemens Training Local,true
+I2B,I2B-Siemens Training UK,true
+I31,I31-SD Ireland 1,true
+I32,I32-SD Ireland 2,true
+I33,I33-SD Ireland 3,true
+I34,I34-SD Ireland 4,true
+I35,I35-SD Ireland 5,true
+I36,I36-SD Ireland 6,true
+I37,I37-SD Ireland 7,true
+I38,I38-SD Ireland 8,true
+I39,I39-SD Ireland 9,true
+I3A,I3A-SD Ireland 10,true
+I3B,I3B-SD Ireland 11,true
+I3C,I3C-SD Ireland 12,true
+I3D,I3D-SD Ireland 13,true
+I3E,I3E-SD Ireland 14,true
+I3F,I3F-SD Ireland 15,true
+I3G,I3G-SD Ireland 16,true
+I3H,I3H-SD Ireland 17,true
+I3I,I3I-SD Ireland 18,true
+I3K,I3K-SD Ireland 19,true
+I3L,I3L-SD Ireland 20,true
+I3M,I3M-SD Ireland 21,true
+I3N,I3N-SD Ireland 22,true
+I3O,I3O-SD Ireland 23,true
+I3P,I3P-SD Ireland 24,true
+I3Q,I3Q-SD Ireland 25,true
+I3R,I3R-SD Ireland 26,true
+I3S,I3S-SD Ireland 27,true
+I3T,I3T-SD Ireland 28,true
+I3U,I3U-SD Ireland 29,true
+I3V,I3V-SD Ireland 30,true
+I3W,I3W-SD Ireland 31,true
+I3X,I3X-SD Ireland 32,true
+I3Y,I3Y-SD Ireland 33,true
+I3Z,I3Z-SD Ireland 34,true
+I41,I41-SE Ireland 1,true
+I42,I42-SE Ireland 2,true
+I43,I43-SE Ireland 3,true
+I44,I44-SE Ireland 4,true
+I45,I45-SE Ireland 5,true
+I46,I46-SE Ireland 6,true
+I51,I51-PT Ireland 1,true
+I52,I52-PT Ireland 2,true
+I53,I53-PT Ireland 3,true
+I54,I54-PT Ireland 4,true
+I55,I55-PT Ireland 5,true
+I56,I56-PT Ireland 6,true
+I61,I61-LD Ireland 1,true
+I62,I62-LD Ireland 2,true
+I63,I63-LD Ireland 3,true
+I64,I64-LD Ireland 4,true
+I65,I65-LD Ireland 5,true
+I66,I66-LD Ireland 6,true
+I71,I71-MC Ireland 1,true
+I72,I72-MC Ireland 2,true
+I73,I73-MC Ireland 3,true
+I74,I74-MC Ireland 4,true
+I75,I75-MC Ireland 5,true
+I76,I76-MC Ireland 6,true
+I81,I81-PI Ireland 1,true
+I82,I82-PI Ireland 2,true
+I83,I83-PI Ireland 3,true
+I84,I84-PI Ireland 4,true
+I85,I85-PI Ireland 5,true
+I86,I86-PI Ireland 6,true
+I91,I91-AS Ireland 1,true
+I92,I92-AS Ireland 2,true
+I93,I93-AS Ireland 3,true
+I94,I94-AS Ireland 4,true
+I95,I95-AS Ireland 5,true
+I96,I96-AS Ireland 6,true
+IA1,IA1-SD Ireland 35,true
+IA2,IA2-SD Ireland 36,true
+IA3,IA3-SD Ireland 37,true
+IA4,IA4-SD Ireland 38,true
+IA5,IA5-SD Ireland 39,true
+IA6,IA6-SD Ireland 40,true
+IA7,IA7-SD Ireland 41,true
+IA9,IA9-SD Ireland 42,true
+IND,IND-T.b.v. /SIE/NL_UPLOAD_MAT niet gebruiken,true
+ITC,ITC-In the ear Conventioneel,true
+ITD,ITD-In the ear Digitaal,true
+ITP,ITP-In the ear Programmeerbaar,true
+KGL,KGL-,true
+KTV,KTV-ICN migration,true
+L01,L01-Photo-electric safety systems,true
+L02,L02-SIGUARD Laserscanner,true
+L03,L03-SIGUARD comm. Produkts 3SF78,true
+L04,L04-Inductive- /capacitive proximity switche,true
+L05,L05-Ultrasonic proximity switches,true
+L06,"L06-Programmed control, safety relays",true
+L07,L07-Logistics Performance,true
+L08,L08-Equipment For Packaging Machines,true
+L09,L09-Motors 1FV2,true
+L10,L10-Sicherheitstechnik 3TK28/29,true
+L11,L11-Switch disconnectors with or without,true
+L12,L12-Sentron VL (UL) - Circuit Breaker,true
+L13,"L13-Leistungsschalter PCB u. Zubehör, Ersatz",true
+L14,L14-power supply systems,true
+L15,L15-Kompakt-Leistungsschalter u. Zubehör 3VF,true
+L16,L16-SINAMICS G110/G120 accessories,true
+L17,L17-SINAMICS G110 Documentation,true
+L18,L18-SINAMICS G / MICROMASTER FX/GX spare par,true
+L19,L19-SINAMICS G110/G120 options,true
+L20,L20-POWER SUPPLIES: LOGO!POWER,true
+L21,"L21-SIRIUS  contactors, S00",true
+L22,"L22-SIRIUS  contactors, S0",true
+L23,"L23-SIRIUS  contactors  S2, S3",true
+L24,"L24-SIRIUS cont., cont. comb.S6-S12",true
+L25,L25-SIRIUS  therm delayed overl. rel,true
+L26,L26-SIRIUS reversers,true
+L27,L27-SIRIUS circuit breaker MSP S00,true
+L28,L28-SIRIUS circuit breaker MSP S0,true
+L29,L29-SIRIUS circuit breaker MSP S2/S3,true
+L30,L30-SIRIUS Soft starters,true
+L31,L31-SIRIUS Circuit breaker access.,true
+L32,L32-Acces SIRIUS cont.S00/S2/S3/S6-S12,true
+L33,L33-Access. SIRIUS  therm. del. rel,true
+L34,"L34-SENTRON WL Circuit breaker, 3WL1 IE",true
+L35,"L35-Pushbutton,indicator light,metallp",true
+L36,L36-Emergency-Stop Pushbuttons,true
+L37,"L37-Contactors, cont. comb. (>170A)",true
+L38,L38-SIRIUS  electronic overload rel,true
+L39,L39-SIRIUS  electronic overload rel.,true
+L40,L40-Time relays,true
+L41,L41-SIRIUS Pushbutton/indicator light,true
+L42,L42-SIRIUS motor management SIMOCODE,true
+L43,L43-Control switches and accessories,true
+L44,L44-SENTRON VL - moulded case circuit b,true
+L45,"L45-AS-interface modules, ASIsafe",true
+L46,"L46-AS-I access. , power unit, lines",true
+L47,L47-SIRIUS motor starters ASI-Mstarter,true
+L48,L48-Low voltage motors - Standard - ALU - ex,true
+L49,L49-Low voltage motors - Standard - ALU - ex,true
+L50,L50-Low voltage motors - Standard - ALU - ex,true
+L51,L51-Motor*1LE1*Alu*Stock*eff1*FS100-160,true
+L52,L52-Motor*1LE1*Alu*Stock*eff2*FS100-160,true
+L53,L53-Low voltage motors - Standard - CI - ex,true
+L54,L54-Low voltage motors - Standard - CI - ex,true
+L55,L55-Low voltage motors - Standard - ALU - no,true
+L56,L56-Low voltage motors - Standard - ALU - no,true
+L57,L57-Low voltage motors - Standard - CI - not,true
+L58,L58-Low voltage motors - Standard - CI - not,true
+L59,L59-Low voltage motors - Standard - ALU - no,true
+LAC,LAC-Life support Accessoires,true
+LSP,LSP-Life support Spare parts,true
+M21,M21-MRF 21,true
+M31,M31-MRF 31,true
+MA1,MA1-Achter het oor toestellen,true
+MA2,MA2-In het oor toestellen,true
+MA3,MA3-Telos-zenders,true
+MA4,MA4-Hoorstukje naar maat,true
+MA5,MA5-Telefoon AT,true
+MA6,MA6-Klassikale apparatuur,true
+MA7,MA7-Fida contributie      med,true
+MAC,MAC-Monitoring Accessoires,true
+MCA,MCA-Chemie Adefo,true
+MCD,MCD-Chemie Dupont,true
+MDI,MDI-Diversen,true
+MDS,MDS-Screenfilms DDS,true
+MHP,MHP-Hanau produkten,true
+MLA,MLA-Laserfilm,true
+MMA,MMA-Mammografie,true
+MNE,MNE-Monitoring Nelcor,true
+MNI,MNI-Screenfilms NIF,true
+MOV,MOV-Med overige film,true
+MRP,MRP-Registerpapier,true
+MSP,MSP-Monitoring Spare parts,true
+MSV,MSV-Servo-ventilatoren,true
+MTK,MTK-MED transportkosten,true
+MUV,MUV-Screenfilm UV,true
+PC1,PC1-,true
+PGA,PGA-,true
+PH1,PH1-,true
+PK1,PK1-,true
+PM1,PM1-,true
+PPG,PPG-,true
+PRO,PRO-,true
+PS1,PS1-,true
+QKA,QKA-,true
+QSP,QSP-QSP,true
+S01,S01-Solo Wasautomaten,true
+S02,S02-Solo Droogautomaten,true
+S03,S03-Solo Koelapparatuur,true
+S04,S04-Solo Vriesapparatuur,true
+S05,S05-Solo Fornuizen,true
+S06,S06-Solo Magnetrons,true
+S07,S07-Solo Afwas-automaten,true
+S08,S08-Solo Kookplaten,true
+S09,S09-Solo Afzuigkappen,true
+S10,S10-Solo Stofzuigers,true
+S11,S11-Solo Klein Huishoudelijk,true
+S12,S12-Solo Klein Huishoudelijk ex. verwijderbi,true
+S13,S13-Solo Keukenradio's,true
+S20,S20-Solo Extra toebehoren,true
+S21,S21-Solo Kookplaten zonder verwijderingsbijd,true
+S30,S30-SE_BEW: Blocked at 30%,true
+S31,S31-SE_BEW: Classic 50%,true
+S32,S32-SE_BEW:RB Wholesale,true
+S33,S33-SE_BEW:2010 (Customer discount),true
+S34,S34-SE_BEW:AC (Customer discount),true
+S35,S35-SE_BEW:Blocked at 25%,true
+S36,S36-SE_BEW:Blocked at 20%,true
+S37,S37-SE_BEW:Sec. Systems (Customer discount),true
+S38,S38-SE_BEW:Video (Customer discount),true
+S39,S39-SE_BEW:s0 IR Inne,true
+S40,S40-SE_BEW:s1 Seismiska detektorer,true
+S41,S41-SE_BEW:s2 Specialdetektorer,true
+S42,"S42-SE_BEW:s3 Magnetkontakter, glaskross mm",true
+S43,S43-SE_BEW:s4 Larmdon,true
+S44,S44-SE_BEW:s5 Centralapparater AC xxx,true
+S45,S45-SE_BEW:s6 Radiolarm,true
+S46,S46-SE_BEW:s7 Strömförsörjning,true
+S47,S47-SE_BEW:s8 Ackar,true
+S48,S48-SE_BEW:s9 Övrigt Inbrott,true
+S49,S49-SE_BEW:sa Perimeter detektorer,true
+S50,S50-SE_BEW:sb Perimeter övrigt,true
+S51,S51-SE_BEW:sc Galaxy,true
+S52,S52-SE_BEW:sd Förbrukningsmaterial,true
+S53,S53-SE_BEW:sf Fast rabatt 25%,true
+S54,S54-SE_BEW:su Brand Siemens konventionella,true
+S55,S55-SE_BEW:sv Brand övrigt,true
+S56,S56-SE_BEW:sz Ingen rabatt fast netto,true
+S57,S57-SE_BEW:No discount,true
+S58,S58-SE_BEW:CCTV  (Customer discount),true
+S59,S59-SE_BEW:IP  (Customer discount),true
+S60,S60-SE_BEW:Service & Repair (Blocked at 25%),true
+S61,S61-SE_BEW:Sintony 60,true
+S62,S62-SE_BEW:Simplebus,true
+SBT,SBT-SBT Geen korting,true
+SD0,SD0-Desigo PX,true
+SD1,SD1-HVP reserv,true
+SD2,SD2-HVP reserv,true
+SD3,SD3-Övrigt Desigo,true
+SD4,SD4-HVP reserv,true
+SD5,SD5-GMS,true
+SD6,SD6-Integral,true
+SD7,SD7-Legacy Systems,true
+SD8,SD8-Energimätare,true
+SD9,SD9-HVP reserv,true
+SDA,"SDA-Värmesystem, OEM",true
+SDB,SDB-HVP reserv,true
+SDC,SDC-HVP reserv,true
+SDD,SDD-Regulatorer,true
+SDE,SDE-HVP reserv,true
+SDF,SDF-HVP reserv,true
+SDG,SDG-HVP reserv,true
+SDH,SDH-HVP reserv,true
+SDI,SDI-HVP reserv,true
+SDJ,"SDJ-Regulatorer, OEM",true
+SDK,SDK-HVP reserv,true
+SDL,SDL-HVP reserv,true
+SDM,SDM-Givare,true
+SDN,SDN-HVP reserv,true
+SDO,SDO-HVP reserv,true
+SDP,SDP-HVP reserv,true
+SDQ,SDQ-Termostater,true
+SDR,SDR-Magnetic,true
+SDS,SDS-HVP reserv,true
+SDT,SDT-Ventilställdon,true
+SDU,SDU-Ventiler,true
+SDV,SDV-HVP reserv,true
+SDW,SDW-HVP reserv,true
+SDX,SDX-HVP reserv,true
+SDY,"SDY-Ventiler/Ställdon, OEM",true
+SDZ,SDZ-HVP reserv,true
+SE0,SE0-Spjällställdon,true
+SE1,SE1-HVP reserv,true
+SE2,SE2-HVP reserv,true
+SE3,SE3-HVP reserv,true
+SE4,SE4-HVP reserv,true
+SE5,SE5-Varishunt/Varivalve,true
+SE6,SE6-HVP reserv,true
+SE7,SE7-HVP reserv,true
+SE8,SE8-Frekvensomriktare,true
+SE9,SE9-HVP reserv,true
+SEA,SEA-Ventilkopplingar,true
+SEB,SEB-Brand/Rök,true
+SEC,SEC-HVP reserv,true
+SED,SED-HVP reserv,true
+SEE,SEE-HVP reserv,true
+SEF,SEF-Övrigt HVP,true
+SEG,SEG-HVP reserv,true
+SEH,SEH-HVP reserv,true
+SEI,SEI-HVP reserv,true
+SEJ,SEJ-HVP reserv,true
+SEK,SEK-HVP reserv,true
+SEL,SEL-HVP reserv,true
+SEM,SEM-HVP reserv,true
+SEN,SEN-HVP reserv,true
+SEO,SEO-HVP reserv,true
+SEP,SEP-HVP reserv,true
+SEQ,SEQ-HVP reserv,true
+SER,SER-HVP reserv,true
+SES,SES-HVP reserv,true
+SET,SET-BAU lösningar,true
+SEU,SEU-Pneumatik,true
+SEV,SEV-Talon,true
+SEW,SEW-Apogee,true
+SEX,SEX-Siclimat,true
+SEY,SEY-PCB Produktion,true
+SEZ,SEZ-Dokumentation/Logistik,true
+SF0,SF0-B1 Brandlarmcentral inkl kretskort,true
+SF1,SF1-B2 Branddetektorer,true
+SF2,SF2-B3 Branddetektorer special,true
+SF3,SF3-BR Brandlarm Reservdel,true
+SF4,SF4-BS Brandlarm Servicedel,true
+SF5,SF5-BT Brandlarm Tillbehör,true
+SF6,SF6-FS reserv,true
+SF7,SF7-FS reserv,true
+SF8,SF8-FS reserv,true
+SF9,SF9-FS reserv,true
+SFA,SFA-C1 CCTV,true
+SFB,SFB-C2 CCTV,true
+SFC,SFC-CR CCTV Reservdel,true
+SFD,SFD-CS CCTV Servicedel,true
+SFE,SFE-CT CCTV Tillbehör,true
+SFF,SFF-FS reserv,true
+SFG,SFG-FS reserv,true
+SFH,SFH-FS reserv,true
+SFI,SFI-FS reserv,true
+SFJ,SFJ-FS reserv,true
+SFK,SFK-I1 Inbrottslarm central inkl kretskort,true
+SFL,SFL-I2 Inbrottslarm detektorer,true
+SFM,SFM-IR Inbrottslarm Reservdel,true
+SFN,SFN-IS Inbrottslarm Servicedel,true
+SFO,SFO-IT Inbrottslarm Tillbehör,true
+SFP,SFP-FS reserv,true
+SFQ,SFQ-FS reserv,true
+SFR,SFR-FS reserv,true
+SFS,SFS-FS reserv,true
+SFT,SFT-FS reserv,true
+SFU,SFU-FS reserv,true
+SFV,SFV-Ö1 Överordnat system,true
+SFW,SFW-Ö2 Överordnat datorhårdvara,true
+SFX,SFX-ÖR Överordnat Reservdel,true
+SFY,SFY-ÖS Överordnat Servicedel,true
+SFZ,SFZ-Överordnat Tillbehör,true
+SG0,SG0-FS reserv,true
+SG1,SG1-FS reserv,true
+SG2,SG2-FS reserv,true
+SG3,SG3-FS reserv,true
+SG4,SG4-FS reserv,true
+SG5,SG5-O1 Områdeslarm,true
+SG6,SG6-O2 Områdeslarm,true
+SG7,SG7-OR Områdeslarm Reservdel,true
+SG8,SG8-OS Områdeslarm Servicedel,true
+SG9,SG9-Områdeslarm Tillbehör,true
+SGA,SGA-FS reserv,true
+SGB,SGB-FS reserv,true
+SGC,SGC-FS reserv,true
+SGD,SGD-FS reserv,true
+SGE,SGE-FS reserv,true
+SGF,SGF-P1 Passerkontroll central inkl kretskort,true
+SGG,SGG-P2 Passer platsutrustning,true
+SGH,SGH-PR Passer Reservdel,true
+SGI,SGI-PS Passer Servicedel,true
+SGJ,SGJ-PT Passer Tillbehör,true
+SGK,SGK-FS reserv,true
+SGL,SGL-FS reserv,true
+SGM,SGM-FS reserv,true
+SGN,SGN-FS reserv,true
+SGO,SGO-FS reserv,true
+SGP,SGP-U1 Utrymningslarm,true
+SGQ,SGQ-UR Utrymning Reservdel,true
+SGR,SGR-US Utrymning Servicedel,true
+SGS,SGS-UT Utrymning Tillbehör,true
+SGT,SGT-FS reserv,true
+SGU,SGU-FS reserv,true
+SGV,SGV-D1 Tillbehör övrigt,true
+SGW,SGW-T1 Tjänster,true
+SGX,SGX-FS reserv,true
+SGY,SGY-FS reserv,true
+SGZ,SGZ-FS reserv,true
+SNP,SNP-Sweden No Price Group,true
+SV1,SV1-Med,true
+TL1,TL1-ICM migration,true
+TL2,TL2-,true
+UME,UME-,true
+V,V-,true
+V01,V01-5853,true
+V02,V02-5852/5855/5892/5894,true
+V03,V03-3784/5872,true
+V04,V04-5873,true
+V05,V05-5877,true
+V06,V06-3775-3776,true
+V07,V07-3720-3722,true
+V08,V08-5867-5868,true
+V09,V09-3718/3727/3728,true
+V10,V10-5804/5805/5810/5811,true
+V11,V11-5831/5832/3754/3755,true
+V12,V12-3745,true
+V13,V13-3740,true
+V14,V14-,true
+V15,V15-,true
+V16,V16-,true
+V17,V17-,true
+V20,V20-4022,true
+V21,V21-9512/9513/9516,true
+V22,V22-9515/9521,true
+V30,V30-5613-5616,true
+V31,V31-5605-5606,true
+V32,V32-5602,true
+V33,V33-,true
+V34,V34-5607/5609,true
+V35,V35-5622,true
+V36,V36-5647,true
+V37,V37-,true
+V38,V38-5601,true
+V40,V40-,true
+V41,V41-3703-3707/3719/3729,true
+V42,V42-3715-3717,true
+V43,V43-5603-5604/5650/5652,true
+V44,V44-5617-5618,true
+V50,V50-4778,true
+VBE,VBE-,true
+VCR,VCR-,true
+VER,VER-VER,true
+VHO,VHO-Voorraad artikelen op HOLD,true
+VKT,VKT-,true
+VTE,VTE-VTE,true
+WG1,WG1-CP spareparts,true
+WP,WP-Datamigration,true
+ZZZ,ZZZ-Dummy,true
