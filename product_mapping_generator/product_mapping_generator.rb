@@ -5,15 +5,20 @@ class ProductMappingGenerator
   USE_RANDOM = false
   OUTPUT_FOLDER = "out"	
 
+  CURRENCY = {"GB" => "GBP", "DK" => "DKK", "NL" => "EUR", "PL" => "PLZ"}
+
   USED_MLFBs_NAME = "MLFB"
   SALES_DATA_NAME = "VProductSalesData"
 
-  L1_PRICE_MIN = 300
+  L1_PRICE_MIN = 750
   L1_PRICE_MIN = 800
   L1_PRICE_DEFAULT = 777
+  L2_PRICE_MIN = 700
+  L2_PRICE_MIN = 749
+  L2_PRICE_DEFAULT = 733
   PRICE_BOT = "01/10/2010"
   PRICE_EOT = "31/12/9999"	
-
+  
   attr_reader :productToPck, :countryToSalesOrg, :rpgs
   
   def initialize
@@ -109,6 +114,25 @@ class ProductMappingGenerator
 		end	
 			
 		prices << [mlfb, "#{priceValue} EUR", "Approved", PRICE_BOT, PRICE_EOT]
+	end
+
+	return prices
+  end
+
+    def generateL2Prices(country, mlfbs)
+
+	prices = []
+
+	mlfbs.each do |mlfb|
+
+		if(USE_RANDOM) then 
+		
+			priceValue = Random.new.rand(L2_PRICE_MIN..L2_PRICE_MAX)
+		else
+			priceValue = L2_PRICE_DEFAULT
+		end	
+			
+		prices << [mlfb, "#{priceValue} #{CURRENCY[country]}", "Approved", PRICE_BOT, PRICE_EOT, country]
 	end
 
 	return prices

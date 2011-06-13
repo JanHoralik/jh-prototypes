@@ -35,17 +35,20 @@ require "product_mapping_generator"
 	
   end
 
-#    def test_generate_l2_prices
-#	
-#	@g.load
-#	l2Prices = @g.generateL2Prices
-#	#assert_match /(0-9,A-Z,\-)+/, l2Prices[5][0]
-#	assert_equal "4999 EUR", l2Prices[5][1]
-#	assert_equal "Approved", l2Prices[5][2]
-#	assert_equal "01/10/2010", l2Prices[5][3]
-#	assert_equal "31/12/9999", l2Prices[5][4]
-#	
-#  end
+    def test_generate_l2_prices
+	
+	mlfbs = ["100001162", "100001208", "100001219"]
+
+	@g.load
+	l2Prices = @g.generateL2Prices("GB"):
+	assert_match 3, l2Prices.count
+	assert_equal "733 GBP", l2Prices[1][1]
+	assert_equal "Approved", l2Prices[1][2]
+	assert_equal "01/10/2010", l2Prices[1][3]
+	assert_equal "31/12/9999", l2Prices[1][4]
+	assert_equal "GB", l2Prices[1][5]
+	
+  end
 
 
   def test_generate_mlfb_hqpg_mapping
