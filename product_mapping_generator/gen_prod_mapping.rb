@@ -5,14 +5,15 @@ class Program
 HQ_COUNTRIES = ["GB","PL"]
 RPG_COUNTRIES = ["DK","NL"]
 
-USE_RANDOM_DEFAULT = true
-OUTPUT_FOLDER_DEFAULT = "out"	
+def initialize(_useRandom, _outputFolder)
 
+	@useRandom = _useRandom
+	@outputFolder = _outputFolder
+end
 
+def process(limit)
 
-def process(limit, useRandom, outputFolder)
-
-	@g = ProductMappingGenerator.new(useRandom, outputFolder)
+	@g = ProductMappingGenerator.new(@useRandom, @outputFolder)
 	@g.load
 
 
@@ -21,25 +22,25 @@ def process(limit, useRandom, outputFolder)
 	salesData = []
 	rpgPckData = []
 	l1Prices = []
-	l1Price2 = []
+	l2Prices = []
+
+	l1Prices += @g.generateL1Prices(products)
 
 	HQ_COUNTRIES.each do |country|
 	
 		mapping = @g.generateMlfbMappingWithHqpg(products, country)
 	
-		salesData << mapping["VProductSalesData"]
-		l1Prices << @g.generateL1Prices(products)
-		l2Prices << @g.generateL2Prices(products, country)
+		salesData += mapping["VProductSalesData"]
+		l2Prices += @g.generateL2Prices(products, country)
 	end	
 
 	RPG_COUNTRIES.each do |country|
 	
 		mapping = @g.generateMlfbMappingWithRpg(products, country)
 	
-		salesData << mapping["VProductSalesData"]
-		rpgPckData << mapping["SCountryRpgPckData"]
-		l1Prices << @g.generateL1Prices(products)
-		l2Prices << @g.generateL2Prices(products, country)
+		salesData += mapping["VProductSalesData"]
+		rpgPckData += mapping["SCountryRpgPckData"]
+		l2Prices += @g.generateL2Prices(products, country)
 	end
 
 	@g.writeToCsv(products, "products.txt")
@@ -57,10 +58,13 @@ end
              exit(1)
   end
 
-  limit = ARGV[0]
-  useRandom = ARGV[1] ? (ARGV[1] : USE_RANDOM_DEFAULT)
-  outputFolder = ARGV[2] ? (ARGV[2] : OUTPUT_FOLDER_DEFAULT)
+  USE_RANDOM_DEFAULT = true
+  OUTPUT_FOLDER_DEFAULT = "out"	
 
-  p = Program.new
-  p.process(limit, useRandom, outputFolder)
+  limit = Integer(ARGV[0])
+  useRandom = ARGV[1] ? ARGV[1] : USE_RANDOM_DEFAULT
+  outputFolder = ARGV[2] ? ARGV[2] : OUTPUT_FOLDER_DEFAULT
+
+  p = Program.new(useRandom, outputFolder)
+  p.process(limit)
 	

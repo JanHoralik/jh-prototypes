@@ -3,7 +3,7 @@ require "CSV"
 class ProductMappingGenerator
 
 
-  CURRENCY = {"GB" => "GBP", "DK" => "DKK", "NL" => "EUR", "PL" => "PLZ"}
+  CURRENCY = {"GB" => "GBP", "DK" => "DKK", "NL" => "EUR", "PL" => "PLN"}
 
   SALES_DATA_NAME = "VProductSalesData"
   RPG_PCK_DATA_NAME = "SCountryRpgPckData"
@@ -92,7 +92,7 @@ class ProductMappingGenerator
 		 if(row.is_a?(Array)) then
 			outfile.puts(row.join(','))
 		 else
-			 outfile.puts(row)
+			outfile.puts(row)
 		 end
 	  end
     
@@ -172,7 +172,7 @@ class ProductMappingGenerator
 	return prices
   end
 
-    def generateL2Prices(country, mlfbs)
+    def generateL2Prices(mlfbs,country)
 
 	prices = []
 
