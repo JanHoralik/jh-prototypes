@@ -76,7 +76,7 @@ require "product_mapping_generator"
 	assert_equal "9620", mapping["SCountryRpgPckData"][0][2]
   end
 
-def test_write_files
+def DISABLED_test_write_files_hq
 
 	@g.load
 	mapping = @g.generateMlfbMappingWithHqpg "GB", 20
@@ -89,6 +89,25 @@ def test_write_files
 	@g.writeToCsv(@g.generateL1Prices(mapping["MLFB"]), "l1prices.txt")
 	@g.writeToCsv(@g.generateL2Prices("GB",mapping["MLFB"]), "l2prices.txt")
 end
+
+def test_write_files_rpg
+
+	country = "DK"
+
+	@g.load
+	mapping = @g.generateMlfbMappingWithHqpg country, 20
+
+	@g.writeToCsv(mapping["MLFB"], "products.txt")
+	assert File.exists?("out\\products.txt")
+	@g.writeToCsv(mapping["VProductSalesData"], "sales.csv")
+	assert File.exists?("out\\sales.csv")
+	@g.writeToCsv(mapping["SCountryRpgPckData"], "rpgpck.csv")
+	assert File.exists?("out\\rpgpck.csv")
+
+	@g.writeToCsv(@g.generateL1Prices(mapping["MLFB"]), "l1prices.txt")
+	@g.writeToCsv(@g.generateL2Prices(country,mapping["MLFB"]), "l2prices.txt")
+end
+
 
 end
 
