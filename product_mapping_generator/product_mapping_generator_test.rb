@@ -40,8 +40,8 @@ require "product_mapping_generator"
 	mlfbs = ["100001162", "100001208", "100001219"]
 
 	@g.load
-	l2Prices = @g.generateL2Prices("GB"):
-	assert_match 3, l2Prices.count
+	l2Prices = @g.generateL2Prices("GB", mlfbs)
+	assert_equal 3, l2Prices.count
 	assert_equal "733 GBP", l2Prices[1][1]
 	assert_equal "Approved", l2Prices[1][2]
 	assert_equal "01/10/2010", l2Prices[1][3]
