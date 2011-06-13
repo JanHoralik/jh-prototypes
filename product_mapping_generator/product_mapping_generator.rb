@@ -2,13 +2,14 @@ require "CSV"
 
 class ProductMappingGenerator
 
-  USE_RANDOM = true
+  USE_RANDOM = false
   OUTPUT_FOLDER = "out"	
 
   CURRENCY = {"GB" => "GBP", "DK" => "DKK", "NL" => "EUR", "PL" => "PLZ"}
 
   USED_MLFBs_NAME = "MLFB"
   SALES_DATA_NAME = "VProductSalesData"
+  RPG_PCK_DATA_NAME = "SCountryRpgPckData"
 
   L1_PRICE_MIN = 750
   L1_PRICE_MAX = 800
@@ -25,6 +26,7 @@ class ProductMappingGenerator
 
 	@productToPck = {}
 	@countryToSalesOrg = {}
+	@rpgs = []
   end
 
   def load
@@ -52,6 +54,12 @@ class ProductMappingGenerator
 		
 	  end
 
+	  CSV.foreach("SRegionalPriceGroup.csv") do |row|
+    		
+	  	next if row[0] =~ /^#/	  
+		
+		@rpgs << row[0]
+	  end
 
   end 
 
@@ -99,6 +107,42 @@ class ProductMappingGenerator
 	return mapping	
   end
 
+  def generateMlfbMappingWithRpg(country, limit)
+
+	allMlfbs = @productToPck.keys
+	
+	salesData = []
+        rpgPckData = []
+	mlfbsUsed = [] 	
+	
+	(0..limit-1).each do |i|  
+	
+		if(USE_RANDOM) then 
+			rpgIndex = Random.new.rand(0..@rpgs.count-1)
+			salesOrgIndex = Random.new.rand(0..@countryToSalesOrg[country].count-1)
+			
+		else
+			rpgIndex = 0
+			salesOrgIndex = 0	
+		end	
+
+		mlfb = allMlfbs[i]
+		pck = @productToPck[mlfb]
+		rpg = @rpgs[rpgIndex]
+		salesOrg = @countryToSalesOrg[country][salesOrgIndex]
+
+		salesData << [mlfb, salesOrg, rpg, nil, 15]
+		rpgPckData << [country, rpg, pck] 
+		mlfbsUsed << mlfb 		
+	end
+
+	mapping = {}
+	mapping[USED_MLFBs_NAME] = mlfbsUsed
+	mapping[SALES_DATA_NAME] = salesData
+	mapping[RPG_PCK_DATA_NAME] = rpgPckData
+
+	return mapping	
+  end
 
 
   def generateL1Prices(mlfbs)
