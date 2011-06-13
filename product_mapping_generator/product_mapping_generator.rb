@@ -2,6 +2,8 @@ require "CSV"
 
 class ProductMappingGenerator
 
+  USE_RANDOM = true
+
   OUTPUT_FOLDER = "out"	
   USED_MLFBs_NAME = "MLFB"
   SALES_DATA_NAME = "VProductSalesData"
@@ -60,8 +62,15 @@ class ProductMappingGenerator
         mlfbsUsed = [] 	
 	
 	(0..limit-1).each do |i|  
-		
-		salesData << [allMlfbs[i],@countryToSalesOrg[country][0],nil, nil, 15]
+	
+		if(USE_RANDOM) then 
+			salesOrgIndex = Random.new.rand(0..@countryToSalesOrg[country].count-1)
+		else
+			salesOrgIndex = 0
+		end	
+
+
+		salesData << [allMlfbs[i],@countryToSalesOrg[country][salesOrgIndex], nil, nil, 15]
 		mlfbsUsed << allMlfbs[i] 		
 	end
 
