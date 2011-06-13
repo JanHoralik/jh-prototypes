@@ -1,12 +1,17 @@
+require "CSV"
+
 class ProductMappingGenerator
 
-  SOURCE_COLUMNS = [3,4,6]
+  OUTPUT_FOLDER = "out"	
+  USED_MLFBs_NAME = "MLFB"
+  SALES_DATA_NAME = "VProductSalesData"
 
   attr_reader :productToPck, :countryToSalesOrg, :rpgs
   
   def initialize
 
-	
+	@productToPck = {}
+	@countryToSalesOrg = {}
   end
 
   def set_fake_values
@@ -22,8 +27,70 @@ class ProductMappingGenerator
 
   def load
 
-	  set_fake_values
+	  CSV.foreach("SProduct.csv") do |row|
+    	
+		next if row[0] =~ /^#/
+
+		mlfb = row[0]
+		pck = row[4]
+
+		@productToPck[mlfb] = pck
+	  end
+
+	  CSV.foreach("VSalesOrg.csv") do |row|
+    		
+	  	next if row[0] =~ /^#/	  
+		
+		salesOrg = row[0]
+		country = row[2]
+
+		if(!@countryToSalesOrg[country]) then @countryToSalesOrg[country] = [] end
+		@countryToSalesOrg[country] << salesOrg
+		
+	  end
+
+
   end 
 
+  def generateMlfbMappingWithHqpg(country, limit)
+
+	allMlfbs = @productToPck.keys
+	
+	salesData = []
+        mlfbsUsed = [] 	
+	
+	(0..limit-1).each do |i|  
+		
+		salesData << [allMlfbs[i],@countryToSalesOrg[country][0],nil, nil, 15]
+		mlfbsUsed << allMlfbs[i] 		
+	end
+
+	mapping = {}
+	mapping[USED_MLFBs_NAME] = mlfbsUsed
+	mapping[SALES_DATA_NAME] = salesData
+
+	return mapping	
+  end
+
+  def writeToCsv(array, filename)
+
+	  Dir.mkdir(OUTPUT_FOLDER) if(!Dir.exist?(OUTPUT_FOLDER))
+	  outfile = File.open("#{OUTPUT_FOLDER}\\#{filename}", 'wb')
+
+	  array.each do |row|
+		 
+		 if(row.is_a?(Array)) then
+			outfile.puts(row.join(','))
+		 else
+			 outfile.puts(row)
+		 end
+	  end
+
+	  #CSV::new(outfile) do |csv|
+   	  #	csv << array #"ttz, ttz" #row.join(',')
+	  #end
+    
+	  outfile.close
+  end
 end
 

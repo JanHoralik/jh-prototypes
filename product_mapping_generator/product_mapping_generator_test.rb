@@ -13,10 +13,10 @@ require "product_mapping_generator"
   def test_load_product_info   
         
 	@g.load
-  	assert_equal 2, @g.productToPck.keys.count 
-        assert_equal 3, @g.countryToSalesOrg["GB"].count
-	assert_equal 2, @g.countryToSalesOrg["DK"].count
-	assert_equal 2, @g.rpgs.count	
+  	assert_equal 35, @g.productToPck.keys.count 
+        assert_equal 4, @g.countryToSalesOrg["GB"].count
+	assert_equal 4, @g.countryToSalesOrg["DK"].count
+	#assert_equal 2, @g.rpgs.count	
  	    
   end
 
@@ -45,13 +45,15 @@ require "product_mapping_generator"
 #  end
 
 
-#  def test_generate_mlfb_hqpg_mapping
-#	  
-#	@g.load
-#	mapping = @g.generateMlfbMappingWithHqpg "GB"
-#	assert_equal 10, mapping.count
-#	assert_equal 5, mapping[0].count
-# end
+  def test_generate_mlfb_hqpg_mapping
+	  
+	@g.load
+	mapping = @g.generateMlfbMappingWithHqpg "GB", 10
+	assert_equal 10, mapping["MLFB"].count
+	assert_equal "100000880", mapping["MLFB"][0]
+	assert_equal 10, mapping["VProductSalesData"].count
+	assert_equal "7011", mapping["VProductSalesData"][0][1]
+ end
 
 #  def test_generate_mlfb_rpg_mapping
 #
@@ -63,5 +65,16 @@ require "product_mapping_generator"
 #	assert_equal 3, mapping["SCountryRpgPckData"][0].count
 #  end
 
- end
+def test_write_files
+
+	@g.load
+	mapping = @g.generateMlfbMappingWithHqpg "DK", 20
+
+	@g.writeToCsv(mapping["MLFB"], "products.txt")
+	assert File.exists?("out\\products.txt")
+	@g.writeToCsv(mapping["VProductSalesData"], "sales.csv")
+	assert File.exists?("out\\sales.csv")
+end
+
+end
 
