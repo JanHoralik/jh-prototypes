@@ -13,11 +13,17 @@ end
 
 def process(limit)
 
+
 	@g = ProductMappingGenerator.new(@useRandom, @outputFolder)
 	@g.load
 
+	processList(@g.selectProducts(limit))
+end
 
-	products = @g.selectProducts(limit)
+def processList(products)
+
+	@g = ProductMappingGenerator.new(@useRandom, @outputFolder)
+	@g.load(products)
 
 	salesData = []
 	rpgPckData = []
@@ -53,18 +59,35 @@ end
 end
 
   # main 
-  if ARGV.count < 1 || ARGV.count > 3
-    puts "Usage: ruby gen_prod_mapping.rb <productCount> [<useRandom>] [<outputFolder>]"
+  if ARGV.count < 2 || ARGV.count > 4
+    puts "Usage: ruby gen_prod_mapping.rb [--list|--limit]  <productCount|productList> [<useRandom>] [<outputFolder>]"
              exit(1)
   end
 
   USE_RANDOM_DEFAULT = true
   OUTPUT_FOLDER_DEFAULT = "out"	
 
-  limit = Integer(ARGV[0])
-  useRandom = ARGV[1] ? ARGV[1] : USE_RANDOM_DEFAULT
-  outputFolder = ARGV[2] ? ARGV[2] : OUTPUT_FOLDER_DEFAULT
+  action = ARGV[0]
+  case action
+	when "--list"
+	  	products = ARGV[1].split(',')
+	when "--limit"
+		limit = Integer(ARGV[1])
+ 	else
+  		raise ArgumentError, "Unknown action:#{action}"
+  end
+  
+  useRandom = ARGV[2] ? ARGV[2] : USE_RANDOM_DEFAULT
+  outputFolder = ARGV[3] ? ARGV[3] : OUTPUT_FOLDER_DEFAULT
 
   p = Program.new(useRandom, outputFolder)
-  p.process(limit)
+  case action
+	when "--list"
+	  	p.processList(products)
+	when "--limit"
+		p.process(limit)
+ 	else
+  		raise ArgumentError, "Unknown action:#{action}"
+  end
+  
 	

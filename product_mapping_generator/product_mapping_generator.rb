@@ -30,6 +30,10 @@ class ProductMappingGenerator
   end
 
   def load
+	  load(nil)
+  end
+
+  def load(products)
 
 	  CSV.foreach("SProduct.csv") do |row|
     	
@@ -38,6 +42,9 @@ class ProductMappingGenerator
 
 		mlfb = row[0]
 		pck = row[4]
+
+		# if product list specified, skip others
+		next if (products != nil && !products.include?(mlfb))
 
 		@productToPck[mlfb] = pck
 	  end
@@ -172,7 +179,7 @@ class ProductMappingGenerator
 	return prices
   end
 
-    def generateL2Prices(mlfbs,country)
+  def generateL2Prices(mlfbs,country)
 
 	prices = []
 
@@ -191,4 +198,3 @@ class ProductMappingGenerator
 	return prices
   end
 end
-
