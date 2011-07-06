@@ -1,4 +1,5 @@
 require "product_mapping_generator"
+require "csv"
 
 class Program
 
@@ -56,11 +57,27 @@ def processList(products)
 	@g.writeToCsv(l2Prices, "l2prices.csv")
 
 end
+
+def loadProductsFromFile(productListFile)
+
+	 products = []
+	 CSV.foreach(productListFile) do |row|
+	
+	  	# skip lines with comments   
+		next if (row[0] =~ /^#/) 
+
+		products << row[0]
+	  end
+
+	 return products
+end
+
+
 end
 
   # main 
   if ARGV.count < 2 || ARGV.count > 4
-    puts "Usage: ruby gen_prod_mapping.rb [--list|--limit]  <productCount|productList> [<useRandom>] [<outputFolder>]"
+    puts "Usage: ruby gen_prod_mapping.rb [--list|--limit]  <productCount|productListFile> [<useRandom>] [<outputFolder>]"
              exit(1)
   end
 
@@ -70,7 +87,7 @@ end
   action = ARGV[0]
   case action
 	when "--list"
-	  	products = ARGV[1].split(',')
+		productListFile = ARGV[1]
 	when "--limit"
 		limit = Integer(ARGV[1])
  	else
@@ -83,6 +100,7 @@ end
   p = Program.new(useRandom, outputFolder)
   case action
 	when "--list"
+		products = p.loadProductsFromFile(productListFile)
 	  	p.processList(products)
 	when "--limit"
 		p.process(limit)

@@ -24,6 +24,7 @@ class ProductMappingGenerator
 	@useRandom = _useRandom
 	@outputFolder = _outputFolder
 
+	@alreadyMappedPcks = []
 	@productToPck = {}
 	@countryToSalesOrg = {}
 	@rpgs = []
@@ -33,7 +34,16 @@ class ProductMappingGenerator
 	  load(nil)
   end
 
-  def load(products)
+  def load(products=nil)
+
+	  CSV.foreach("SCountryRpgPckData-Existing.csv") do |row|
+	
+	  	# skip lines with comments and MLFBs in different format than *-*-*  
+		next if (row[0] =~ /^#/) 
+
+		@alreadyMappedPcks << row[2]
+	  end
+	  @alreadyMappedPcks.uniq!	
 
 	  CSV.foreach("SProduct.csv") do |row|
     	
@@ -43,6 +53,13 @@ class ProductMappingGenerator
 		mlfb = row[0]
 		pck = row[4]
 
+		# if PCK is already mapped, skip the product
+		if(@alreadyMappedPcks.include?(pck)) then
+			
+		   #puts "Warning: Pck #{pck} is already mapped, skipping product #{mlfb}"
+		   next
+		end
+		
 		# if product list specified, skip others
 		next if (products != nil && !products.include?(mlfb))
 
@@ -149,7 +166,7 @@ class ProductMappingGenerator
 		salesOrg = @countryToSalesOrg[country][salesOrgIndex]
 
 		salesData << [mlfb, salesOrg, rpg, nil, 15]
-		rpgPckData << [country, rpg, pck] 
+		rpgPckData << [country, rpg, pck, "FALSE"] 
 	end
 
 	mapping = {}
