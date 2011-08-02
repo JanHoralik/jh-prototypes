@@ -1,0 +1,16 @@
+Test,TestStartTime,TimeStamp,Action,Duration,Category,Client
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:44:29,"001 Open login page",1891,Other,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:44:53,"002 Login as 'pt_pricingmanGR' and wait for dashboard",24282,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:45:08,"003 Navigate in main menu to 'Track and Analyze' and wait for dashboard",14250,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:45:27,"004 Navigate in menu to Summary",17032,FolderNavigation,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:46:02,"005 Dashboard clear drills",13141,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:47:20,"006 Set time period in dashboard",15875,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:47:46,"007 Set Top/Bottom Performance Aggregation to: Sold to Customer",18750,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:48:09,"008 Set Top/Bottom Performance Aggregation to: Regional Price Group",15657,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:48:30,"009 Click link 'Show Bottom Performers'",14547,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:48:40,"010 Expand KPI section: Customer Hierarchy",1219,Other,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:49:18,"011 Dashboard drill down by 'Customer' 'End Customer'",30063,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:49:41,"012 Dashboard drill down by 'Customer' 'CHATZILOUKAS AE 7040005978'",14141,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:49:50,"013 Collapse KPI section: Customer Hierarchy",906,Other,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:50:48,"014 Dashboard clear drills",13860,Dashboard,GSD13
+D - Summary dashboard,2011/07/01 01:44:27,2011/07/01 01:51:00,"015 Logout ",4453,Login,GSD13

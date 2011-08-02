@@ -1,0 +1,34 @@
+Test,TestStartTime,TimeStamp,Action,Duration,Category,Client
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:48:23,"001 Open login page",641,Other,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:48:48,"002 Login as 'pt_managerES2' and wait for dashboard",24329,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:49:37,"003 Navigate directly in folders to 'Sales Agents' and wait for dashboard",47751,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:50:21,"004 Dashboard clear drills",14016,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:52:33,"005 Set time period in dashboard",50095,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:52:56,"006 Set Top/Bottom Performance Aggregation to: Regional Price Group",16297,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:53:18,"007 Set Top/Bottom Performance Aggregation to: Sold to Customer",14766,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:53:39,"008 Click link 'Show Bottom Performers'",14094,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:53:52,"009 Expand KPI section: Regional Price Group",1328,Other,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:54:17,"010 Dashboard drill down by 'Regional Price Group' '325 - SINAMICS G110 (6SL3211)'",23891,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:54:29,"011 Collapse KPI section: Regional Price Group",891,Other,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:55:18,"012 Dashboard clear drills",18047,Dashboard,GSD14
+H - Sales Agents dashboard,2011/07/01 01:48:23,2011/07/01 01:55:29,"013 Logout ",4188,Login,GSD14
+
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:45:28,"001 Open login page",2469,Other,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:45:44,"002 Login as 'pt_salesdirLU' and wait for dashboard",16453,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:46:07,"003 Dashboard clear drills",12375,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:47:28,"004 Set time period in dashboard",13547,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:47:45,"005 Set Top/Bottom Performance Aggregation to: Sold to Customer",9969,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:48:02,"006 Set Top/Bottom Performance Aggregation to: Regional Price Group",10063,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:48:19,"007 Click link 'Show Bottom Performers'",10438,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:48:30,"008 Expand KPI section: Management Hierarchy",891,Other,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:48:42,"009 Dashboard drill down by 'Management ' 'I BT'",11360,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:49:05,"010 Dashboard drill down by 'Management ' 'LV'",13813,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:49:32,"011 Dashboard drill down by 'Management ' 'LV GC'",13938,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:49:49,"012 Dashboard drill down by 'Management ' 'P310'",8406,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:49:59,"013 Collapse KPI section: Management Hierarchy",734,Other,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:50:23,"014 Dashboard clear drills",10469,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:50:49,"015 Expand KPI section: Sold-To Customer",2375,Other,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:50:59,"016 Dashboard drill down by 'Sold-To Customer' 'A. MULLER & FILS SARL 2020396999'",8469,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:51:08,"017 Collapse KPI section: Sold-To Customer",703,Other,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:51:36,"018 Dashboard clear drills",9219,Dashboard,GSD14
+F - Sales dashboard,2011/07/01 01:45:25,2011/07/01 01:51:47,"019 Logout ",4359,Login,GSD14
