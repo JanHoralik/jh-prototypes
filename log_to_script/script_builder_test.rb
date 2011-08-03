@@ -35,20 +35,21 @@ class ScriptBuilderTest < Test::Unit::TestCase
 		assert_equal "019 Logout ", scriptLines[-1]	
 	end
 
-	def DIStest_TwoFiles
+	def test_TwoFiles
 
 		@b.addLog @inputFile1
 		@b.addLog @inputFile2
-		scripts = @b.process
-		assert_equal 10, scripts.length
-	        assert_equal "", scripts[2]
-		assert_equal "", scripts[8]
+		scriptLines = @b.process
+		assert_equal 52, scriptLines.length
+	        assert_equal "D - Summary dashboard", scriptLines[0]
+		assert_equal "001 Open login page", scriptLines[1]
+		assert_equal "019 Logout ", scriptLines[-1]
 	end
 
-	def DIStest_ForCycle
+	def test_ForCycle
 
 		@b.addLog @inputFile3
-		scripts = @b.process
+		scriptLines = @b.process
 		assert_equal 10, scripts.length
 	        assert_equal "", scripts[2]
 		assert_equal "", scripts[8]

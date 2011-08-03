@@ -2,36 +2,90 @@
 # SEE THE MAQL DOCUMENTATION AT http://developer.gooddata.com/api/maql-ddl.html FOR MORE DETAILS
 
 # CREATE DATASET. DATASET GROUPS ALL FOLLOWING LOGICAL MODEL ELEMENTS TOGETHER.
-CREATE DATASET {dataset.timing} VISUAL(TITLE "Timing");
+CREATE DATASET {dataset.perf} VISUAL(TITLE "perf");
 
 
 
 # CREATE ATTRIBUTES.
 # ATTRIBUTES ARE CATEGORIES THAT ARE USED FOR SLICING AND DICING THE NUMBERS (FACTS)
-CREATE ATTRIBUTE {attr.timing.timestamp} VISUAL(TITLE "TimeStamp") AS KEYS {d_timing_timestamp.id} FULLSET, {f_timing.timestamp_id};
-ALTER DATASET {dataset.timing} ADD {attr.timing.timestamp};
+CREATE ATTRIBUTE {attr.perf.pdhcsv40pacificdaylighttime420} VISUAL(TITLE "Time") AS KEYS {d_perf_pdhcsv40pacificdaylighttime420.id} FULLSET, {f_perf.pdhcsv40pacificdaylighttime420_id};
+ALTER DATASET {dataset.perf} ADD {attr.perf.pdhcsv40pacificdaylighttime420};
 
-ALTER ATTRIBUTE {attr.timing.timestamp} ADD LABELS {label.timing.timestamp} VISUAL(TITLE "TimeStamp") AS {d_timing_timestamp.nm_timestamp}; 
-ALTER ATTRIBUTE  {attr.timing.timestamp} DEFAULT LABEL {label.timing.timestamp};
-CREATE ATTRIBUTE {attr.timing.testname} VISUAL(TITLE "TestName") AS KEYS {d_timing_testname.id} FULLSET, {f_timing.testname_id};
-ALTER DATASET {dataset.timing} ADD {attr.timing.testname};
+ALTER ATTRIBUTE {attr.perf.pdhcsv40pacificdaylighttime420} ADD LABELS {label.perf.pdhcsv40pacificdaylighttime420} VISUAL(TITLE "Time") AS {d_perf_pdhcsv40pacificdaylighttime420.nm_pdhcsv40pacificdaylighttime420}; 
+ALTER ATTRIBUTE  {attr.perf.pdhcsv40pacificdaylighttime420} DEFAULT LABEL {label.perf.pdhcsv40pacificdaylighttime420};
+CREATE ATTRIBUTE {attr.perf.hostname} VISUAL(TITLE "hostname") AS KEYS {d_perf_hostname.id} FULLSET, {f_perf.hostname_id};
+ALTER DATASET {dataset.perf} ADD {attr.perf.hostname};
 
-ALTER ATTRIBUTE {attr.timing.testname} ADD LABELS {label.timing.testname} VISUAL(TITLE "TestName") AS {d_timing_testname.nm_testname}; 
-ALTER ATTRIBUTE  {attr.timing.testname} DEFAULT LABEL {label.timing.testname};
-CREATE ATTRIBUTE {attr.timing.starttime} VISUAL(TITLE "StartTime") AS KEYS {d_timing_starttime.id} FULLSET, {f_timing.starttime_id};
-ALTER DATASET {dataset.timing} ADD {attr.timing.starttime};
+ALTER ATTRIBUTE {attr.perf.hostname} ADD LABELS {label.perf.hostname} VISUAL(TITLE "hostname") AS {d_perf_hostname.nm_hostname}; 
+ALTER ATTRIBUTE  {attr.perf.hostname} DEFAULT LABEL {label.perf.hostname};
+CREATE ATTRIBUTE {attr.perf.run} VISUAL(TITLE "run") AS KEYS {d_perf_run.id} FULLSET, {f_perf.run_id};
+ALTER DATASET {dataset.perf} ADD {attr.perf.run};
 
-ALTER ATTRIBUTE {attr.timing.starttime} ADD LABELS {label.timing.starttime} VISUAL(TITLE "StartTime") AS {d_timing_starttime.nm_starttime}; 
-ALTER ATTRIBUTE  {attr.timing.starttime} DEFAULT LABEL {label.timing.starttime};
-CREATE ATTRIBUTE {attr.timing.actiondesc} VISUAL(TITLE "ActionDesc") AS KEYS {d_timing_actiondesc.id} FULLSET, {f_timing.actiondesc_id};
-ALTER DATASET {dataset.timing} ADD {attr.timing.actiondesc};
+ALTER ATTRIBUTE {attr.perf.run} ADD LABELS {label.perf.run} VISUAL(TITLE "run") AS {d_perf_run.nm_run}; 
+ALTER ATTRIBUTE  {attr.perf.run} DEFAULT LABEL {label.perf.run};
+CREATE ATTRIBUTE {attr.perf.rowid} VISUAL(TITLE "rowid") AS KEYS {d_perf_rowid.id} FULLSET, {f_perf.rowid_id};
+ALTER DATASET {dataset.perf} ADD {attr.perf.rowid};
 
-ALTER ATTRIBUTE {attr.timing.actiondesc} ADD LABELS {label.timing.actiondesc} VISUAL(TITLE "ActionDesc") AS {d_timing_actiondesc.nm_actiondesc}; 
-ALTER ATTRIBUTE  {attr.timing.actiondesc} DEFAULT LABEL {label.timing.actiondesc};
+ALTER ATTRIBUTE {attr.perf.rowid} ADD LABELS {label.perf.rowid} VISUAL(TITLE "rowid") AS {d_perf_rowid.nm_rowid}; 
+ALTER ATTRIBUTE  {attr.perf.rowid} DEFAULT LABEL {label.perf.rowid};
 # CREATE FACTS
 # FACTS ARE NUMBERS THAT ARE AGGREGATED BY ATTRIBUTES.
-CREATE FACT {fact.timing.actionduration} VISUAL(TITLE "ActionDuration") AS {f_timing.f_actionduration};
-ALTER DATASET {dataset.timing} ADD {fact.timing.actionduration};
+CREATE FACT {fact.perf.systemprocessorqueuelength} VISUAL(TITLE "System\Processor Queue Length") AS {f_perf.f_systemprocessorqueuelength};
+ALTER DATASET {dataset.perf} ADD {fact.perf.systemprocessorqueuelength};
+
+CREATE FACT {fact.perf.memorypagesinputsec} VISUAL(TITLE "Memory\Pages Input/Sec") AS {f_perf.f_memorypagesinputsec};
+ALTER DATASET {dataset.perf} ADD {fact.perf.memorypagesinputsec};
+
+CREATE FACT {fact.perf.physicaldisk_totalcurrentdiskqueu} VISUAL(TITLE "PhysicalDisk(_total)\Current Disk Queue Length") AS {f_perf.f_physicaldisk_totalcurrentdiskqueu};
+ALTER DATASET {dataset.perf} ADD {fact.perf.physicaldisk_totalcurrentdiskqueu};
+
+CREATE FACT {fact.perf.networkinterfaceintelrpro_1000mtn} VISUAL(TITLE "Network Interface\Output Queue Length") AS {f_perf.f_networkinterfaceintelrpro_1000mtn};
+ALTER DATASET {dataset.perf} ADD {fact.perf.networkinterfaceintelrpro_1000mtn};
+
+CREATE FACT {fact.perf.networkinterfaceintelrpro_1000mtn1} VISUAL(TITLE "Network Interface") AS {f_perf.f_networkinterfaceintelrpro_1000mtn1};
+ALTER DATASET {dataset.perf} ADD {fact.perf.networkinterfaceintelrpro_1000mtn1};
+
+CREATE FACT {fact.perf.processor0processortime} VISUAL(TITLE "Processor(0)\% processor time") AS {f_perf.f_processor0processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor0processortime};
+
+CREATE FACT {fact.perf.processor1processortime} VISUAL(TITLE "Processor(1)\% processor time") AS {f_perf.f_processor1processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor1processortime};
+
+CREATE FACT {fact.perf.processor2processortime} VISUAL(TITLE "Processor(2)\% processor time") AS {f_perf.f_processor2processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor2processortime};
+
+CREATE FACT {fact.perf.processor3processortime} VISUAL(TITLE "Processor(3)\% processor time") AS {f_perf.f_processor3processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor3processortime};
+
+CREATE FACT {fact.perf.processor4processortime} VISUAL(TITLE "Processor(4)% processor time") AS {f_perf.f_processor4processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor4processortime};
+
+CREATE FACT {fact.perf.processor5processortime} VISUAL(TITLE "Processor(5)% processor time") AS {f_perf.f_processor5processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor5processortime};
+
+CREATE FACT {fact.perf.processor6processortime} VISUAL(TITLE "Processor(6)% processor time") AS {f_perf.f_processor6processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor6processortime};
+
+CREATE FACT {fact.perf.processor7processortime} VISUAL(TITLE "Processor(7)% processor time") AS {f_perf.f_processor7processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor7processortime};
+
+CREATE FACT {fact.perf.processor8processortime} VISUAL(TITLE "Processor(8)% processor time") AS {f_perf.f_processor8processortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor8processortime};
+
+CREATE FACT {fact.perf.processor_totalprocessortime} VISUAL(TITLE "Processor(_Total)\% processor time") AS {f_perf.f_processor_totalprocessortime};
+ALTER DATASET {dataset.perf} ADD {fact.perf.processor_totalprocessortime};
+
+CREATE FACT {fact.perf.process_totalworkingset} VISUAL(TITLE "Process(_Total)\Working Set") AS {f_perf.f_process_totalworkingset};
+ALTER DATASET {dataset.perf} ADD {fact.perf.process_totalworkingset};
+ALTER DATATYPE {f_perf.f_process_totalworkingset} BIGINT;
+CREATE FACT {fact.perf.memoryavailablembytes} VISUAL(TITLE "Memory\Available MBytes") AS {f_perf.f_memoryavailablembytes};
+ALTER DATASET {dataset.perf} ADD {fact.perf.memoryavailablembytes};
+ALTER DATATYPE {f_perf.f_memoryavailablembytes} BIGINT;
+CREATE FACT {fact.perf.physicaldisk_totaldiskbytessec} VISUAL(TITLE "PhysicalDisk(_Total)\Disk Bytes/sec") AS {f_perf.f_physicaldisk_totaldiskbytessec};
+ALTER DATASET {dataset.perf} ADD {fact.perf.physicaldisk_totaldiskbytessec};
+
+CREATE FACT {fact.perf.networkinterfaceintelrpro_1000mtn2} VISUAL(TITLE "Network Interface\Bytes Total/Sec") AS {f_perf.f_networkinterfaceintelrpro_1000mtn2};
+ALTER DATASET {dataset.perf} ADD {fact.perf.networkinterfaceintelrpro_1000mtn2};
 
 # CREATE DATE FACTS
 # DATES ARE REPRESENTED AS FACTS
@@ -40,9 +94,9 @@ ALTER DATASET {dataset.timing} ADD {fact.timing.actionduration};
 # REFERENCES CONNECT THE DATASET TO OTHER DATASETS
 # THE FACTS OF ATTRIBUTE IS SORT OF DATASET IDENTIFIER
 # IT IS USED FOR COUNT AGGREGATIONS
-CREATE ATTRIBUTE {attr.timing.factsof} VISUAL(TITLE "Records of Timing") AS KEYS {f_timing.id} FULLSET;
-ALTER DATASET {dataset.timing} ADD {attr.timing.factsof};
+CREATE ATTRIBUTE {attr.perf.factsof} VISUAL(TITLE "Records of perf") AS KEYS {f_perf.id} FULLSET;
+ALTER DATASET {dataset.perf} ADD {attr.perf.factsof};
 
 # SYNCHRONIZE THE STORAGE AND DATA LOADING INTERFACES WITH THE NEW LOGICAL MODEL
-SYNCHRONIZE {dataset.timing};
+SYNCHRONIZE {dataset.perf};
 
