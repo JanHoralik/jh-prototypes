@@ -12,10 +12,17 @@ class ScriptBuilder
 	def startNewTest
 
 		@stepCounter = 1
+		@state = "header"
+
+	end
+
+	def startNewForCycle(stepCount)
+		
+		@forStepCounter = stepCount
 	end
 
 	def addLog(inputFilename)
-		
+	
 		@logFiles << inputFilename		
 	end
 
@@ -25,8 +32,7 @@ class ScriptBuilder
 
 		@logFiles.each do |logFile|
 
-			@state = "header"
-
+			startNewTest
 			CSV.foreach(logFile){|row| processLine(row)}
 			
 			@scriptLines << nil
@@ -58,10 +64,30 @@ class ScriptBuilder
 				startNewTest
 				@scriptLines << ""
 				@state = "firstLine"
+			elsif (row[0] == "FOR")
+				
+				startNewForCycle(row[2])
+				@scriptLines << row[1]	
+				@state = "forCycle"
 			else
 				@scriptLines << readAction(row)
 			end
 
+		when "forCycle"
+		
+			if(row[0] == "END")
+
+				@scriptLines << ".."
+				@state = "commonLine"
+			else
+				if(@forStepCounter.to_i > 0) then
+
+					@scriptLines << readAction(row)
+					@forStepCounter = @forStepCounter.to_i-1
+				else
+					# skip other lines
+				end
+			end	
 		else
 			raise RuntimeError "Unknown state:#{@state}"
 
@@ -87,17 +113,11 @@ class ScriptBuilder
 		return row[0]
 	end
 
-	def writeToFile(filename)
+	def writeToFile(filename, rows)
 
-		file = File.open(filename, 'wb')
-		write(file)
-		file.close()
-	end
-	def write(file)
-
-		CSV(file) do |writer|
-			@rows.each {|row| writer << row}
-		end
+		File.open filename, "wb" do |file|
+			rows.each {|row| file.puts row}
+		end	
 	end
 
 end
