@@ -100,7 +100,7 @@ class ScriptBuilder
 		step = ("%03d" % @stepCounter).to_s
 		@stepCounter += 1 
 
-		puts ">>#{row[3]}<<"
+		#puts ">>#{row[3]}<<"
 
 		action = row[3]
 		action.slice!(/^\d\d\d\s/)
@@ -116,8 +116,13 @@ class ScriptBuilder
 	def writeToFile(filename, rows)
 
 		File.open filename, "wb" do |file|
-			rows.each {|row| file.puts row}
-		end	
+			write(file, rows)
+		end
+	end
+
+	def write(stream, rows)
+
+		rows.each {|row| stream.puts row}
 	end
 
 end
